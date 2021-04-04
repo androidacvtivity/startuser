@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/mRelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/aboutUsToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/mBackArrow"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_back_arrow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/mBackArrow"
+                    android:text="About us"
+                    android:textColor="@color/white"
+                    android:textSize="21sp"
+                    android:layout_marginStart="20dp" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mRelativeLayout1"
+        android:background="@color/colorPrimary">
+
+        <cn.gavinliu.android.lib.shapedimageview.ShapedImageView
+            android:id="@+id/mImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/m_waterfall"
+
+            app:stroke_color="@color/darkDeepOrange"
+            app:stroke_width="3dp" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/nameTV"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_below="@+id/mImageView"-->
+        <!--            android:layout_marginTop="13dp"-->
+        <!--            android:text="Vitalie Bancu"-->
+        <!--            android:textAlignment="center"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:textStyle="bold" />-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_below="@+id/nameTV"-->
+        <!--            android:layout_centerHorizontal="true"-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:text="Software Engineer\n Programmer"-->
+        <!--            android:textAlignment="center"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textSize="12sp" />-->
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="90dp"
+            android:layout_toRightOf="@+id/mImageView"
+            android:src="@drawable/ic_call" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/mImageView"
+            android:src="@drawable/ic_email" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mRelativeLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/addressTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Administrative \n authority"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_toRightOf="@+id/addressTV"
+                        android:text="National Bureau of \nStatistics of the \n Republic of Moldova" />
+
+                    <!--                    <Button-->
+                    <!--                        android:id="@+id/locatebtn"-->
+                    <!--                        android:layout_width="70dp"-->
+                    <!--                        android:layout_height="30dp"-->
+                    <!--                        android:layout_alignParentEnd="true"-->
+                    <!--                        android:layout_alignParentRight="true"-->
+                    <!--                        android:layout_centerVertical="true"-->
+                    <!--                        android:layout_marginRight="5dp"-->
+                    <!--                        android:background="@drawable/locate_btn_background"-->
+                    <!--                        android:text="LOCATE"-->
+                    <!--                        android:textColor="@color/white" />-->
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/nnt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mRelativeLayout3"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/currentCityLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Division"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/currentCityLabel"
+                        android:text="General Division for\n Informational Technologies, \nDesigning of Computer  \nApplications Division" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/sds"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/nnt"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/contactNoLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Website"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/contactNoLabel"
+                        android:text="https://statistica.gov.md/"
+                        android:autoLink="all"
+
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/sds"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/websiteLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Address"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/websiteLabel"
+
+                        android:text="MD-2019 Chişinău,\nstr. Grenoble 106"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayout4"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:autoLink="email"
+                        android:text="Division Head "
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/address"
+                        android:text="Bujor Vasile " />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayout6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayout5"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/emailLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:autoLink="email"
+                        android:text="Programmer"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/emailLabel"
+
+                        android:text="Gheorghita Natalia" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayout7"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayout6"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/bancu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:autoLink="email"
+                        android:text="Programmer"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/bancu"
+
+                        android:text="Bancu Vitalie" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayout8"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayout7"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/afteni"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:autoLink="email"
+                        android:text="Programmer"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/afteni"
+
+                        android:text="Afteni Tatiana" />
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

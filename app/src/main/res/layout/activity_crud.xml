@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/m_splash_screen_bg"
+     tools:context=".Views.CRUDActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="16dp">
+
+
+        <ProgressBar
+            android:id="@+id/mProgressBarSave"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="52dp" />
+
+        <TextView
+            android:id="@+id/headerTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Scientists Editing Page"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/niceGreenish"
+            tools:ignore="MissingPrefix" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_margin"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/text_padding"
+                    android:text="Instrucțiune "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/skyblue" />
+
+                <TextView
+                    android:id="@+id/instructionsTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/text_padding"
+                    android:text="Adaugați angajatul  în edittext, apoi faceți clic pe butonul de salvare din bara de instrumente. Unele câmpuri precum numele și locați trebuie să fie completate." />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/text_padding"
+                    android:text="Informație despre angajat"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/niceGreenish"
+                    tools:ignore="MissingPrefix" />
+
+                <EditText
+                    android:id="@+id/nameTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Nume, prenume "
+                    tools:ignore="MissingPrefix" />
+
+
+                <EditText
+                    android:id="@+id/descriptionTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Locația"
+                    android:minLines="3"
+                    tools:ignore="MissingPrefix" />
+
+                <EditText
+                    android:id="@+id/floorTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Etajul"
+                    android:minLines="3"
+                    tools:ignore="MissingPrefix" />
+
+
+                <EditText
+                    android:id="@+id/officeTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Biroul"
+                    android:minLines="3"
+                    tools:ignore="MissingPrefix" />
+
+
+                <EditText
+                    android:id="@+id/galaxyTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="Funcția"
+                    tools:ignore="MissingPrefix" />
+
+
+                <EditText
+                    android:id="@+id/serviciuTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="Serviciu"
+                    tools:ignore="MissingPrefix" />
+
+                <EditText
+                android:id="@+id/sectiaTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:hint="Secția"
+                tools:ignore="MissingPrefix" />
+
+                <EditText
+                    android:id="@+id/departTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="Dirtecția"
+                    tools:ignore="MissingPrefix" />
+
+                <EditText
+                    android:id="@+id/starTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="Dirtecția generală"
+                    tools:ignore="MissingPrefix" />
+
+
+
+                <EditText
+                    android:id="@+id/phoneTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="Telefon fix de serviciu"
+                    tools:ignore="MissingPrefix" />
+
+                <EditText
+                    android:id="@+id/phonemobilTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="Telefon mobil de serviciu"
+                    tools:ignore="MissingPrefix" />
+
+
+
+                <EditText
+                android:id="@+id/phoneinternalTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:hint="Telefon intern"
+                tools:ignore="MissingPrefix" />
+
+                <EditText
+                    android:id="@+id/formnameTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="Cercetări Statistice"
+                    tools:ignore="MissingPrefix" />
+
+                <EditText
+                    android:id="@+id/emailTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="E-mail"
+                    tools:ignore="MissingPrefix" />
+
+                <EditText
+                    android:id="@+id/personalinfoTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="Informații personale"
+                    tools:ignore="MissingPrefix" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="@dimen/card_margin">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:padding="@dimen/text_padding"-->
+<!--                    android:text="Residence Details"-->
+<!--                    android:textAppearance="@style/TextAppearance.AppCompat.Title"-->
+<!--                    android:textColor="@color/niceGreenish" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/galaxyTxt"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="16dp"-->
+<!--                    android:layout_marginTop="16dp"-->
+<!--                    android:hint="Galaxy"-->
+<!--                    tools:ignore="MissingPrefix" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/starTxt"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="16dp"-->
+<!--                    android:layout_marginTop="16dp"-->
+<!--                    android:hint="Star"-->
+<!--                    tools:ignore="MissingPrefix" />-->
+<!--            </LinearLayout>-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="@dimen/card_margin">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:padding="@dimen/text_padding"-->
+<!--                    android:text="TimeLine Details"-->
+<!--                    android:textAppearance="@style/TextAppearance.AppCompat.Title"-->
+<!--                    android:textColor="@color/niceGreenish" />-->
+
+<!--                <android.helper.DateTimePickerEditText-->
+<!--                    android:id="@+id/dobTxt"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="@dimen/text_padding"-->
+<!--                    android:hint="Date of Birth"-->
+<!--                    tools:ignore="MissingPrefix" />-->
+
+<!--                <android.helper.DateTimePickerEditText-->
+<!--                    android:id="@+id/dodTxt"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="@dimen/text_padding"-->
+<!--                    android:hint="Date of Death"-->
+<!--                    tools:ignore="MissingPrefix" />-->
+<!--            </LinearLayout>-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".Views.help">
+
+    <!--    <item-->
+
+    <!--        android:id="@+id/action_search"-->
+    <!--        android:orderInCategory="1"-->
+    <!--        myapp:showAsAction="always"-->
+    <!--        myapp:actionViewClass="android.widget.SearchView"-->
+    <!--        android:title="Searcher"-->
+    <!--        android:visibility="invisible"-->
+    <!--        />-->
+
+    <item
+        android:id="@+id/viewAllMenuItem"
+        android:title="VIEW ALL"
+        android:icon="@drawable/m_list"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/enlang"
+
+        android:title="english language"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rolang"
+
+        android:title="romanian language"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rulang"
+
+        android:title="russian language"
+        app:showAsAction="never" />
+
+</menu>

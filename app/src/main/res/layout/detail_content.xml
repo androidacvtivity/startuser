@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Informație despre angajat "
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@color/niceGreenish"
+                    android:textStyle="italic" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Nume, prenume "
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/nameTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+
+                            android:text="ALBERT EINSTEIN" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Locația"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/descriptionTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+
+                            android:text="This is the description." />
+
+                        <!--                        <TextView-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:padding="@dimen/text_padding"-->
+                        <!--                            android:text="GALAXY"-->
+                        <!--                            android:textAppearance="@style/TextAppearance.AppCompat.Title"-->
+                        <!--                            android:textColor="@color/colorAccent" />-->
+
+                        <!--                        <TextView-->
+                        <!--                            android:id="@+id/galaxyTV"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:padding="@dimen/text_padding"-->
+                        <!--                            android:text="Galaxy" />-->
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <!--                <TextView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:text="Residency"-->
+                <!--                    android:textAlignment="center"-->
+                <!--                    android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+                <!--                    android:textColor="@color/niceGreenish"-->
+                <!--                    android:textStyle="italic" />-->
+
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Etajul"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/floorTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+
+                            android:text="This is the description." />
+
+                        <!--                        <TextView-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:padding="@dimen/text_padding"-->
+                        <!--                            android:text="GALAXY"-->
+                        <!--                            android:textAppearance="@style/TextAppearance.AppCompat.Title"-->
+                        <!--                            android:textColor="@color/colorAccent" />-->
+
+                        <!--                        <TextView-->
+                        <!--                            android:id="@+id/galaxyTV"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:padding="@dimen/text_padding"-->
+                        <!--                            android:text="Galaxy" />-->
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Biroul"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/officeTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+
+                            android:text="This is the description." />
+
+                        <!--                        <TextView-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:padding="@dimen/text_padding"-->
+                        <!--                            android:text="GALAXY"-->
+                        <!--                            android:textAppearance="@style/TextAppearance.AppCompat.Title"-->
+                        <!--                            android:textColor="@color/colorAccent" />-->
+
+                        <!--                        <TextView-->
+                        <!--                            android:id="@+id/galaxyTV"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:padding="@dimen/text_padding"-->
+                        <!--                            android:text="Galaxy" />-->
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!--                        <TextView-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:padding="@dimen/text_padding"-->
+                        <!--                            android:text="DESCRIPTION"-->
+                        <!--                            android:textAppearance="@style/TextAppearance.AppCompat.Title"-->
+                        <!--                            android:textColor="@color/colorAccent" />-->
+
+                        <!--                        <TextView-->
+                        <!--                            android:id="@+id/descriptionTV"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:padding="@dimen/text_padding"-->
+                        <!--                            android:text="This is the description." />-->
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Funcția"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/galaxyTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+
+                            android:text="Galaxy" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Serviciu"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/serviciuTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+
+                            android:text="Serviciu" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Secția"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/sectiaTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+
+                            android:text="Secția" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Dirtecția"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/departTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+
+                            android:text="Dirtecția" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Dirtecția generală"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/starTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+
+                            android:text="Star" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Telefon fix serviciu"
+
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/phoneTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="phone"
+                            android:padding="@dimen/text_padding"
+
+                            android:text="Star" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Telefon mobil serviciu"
+
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/phonemobilTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="phone"
+                            android:padding="@dimen/text_padding"
+
+                            android:text="Star" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Telefon intern"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/phoneinternalTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Star"
+
+                            />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Cercetări Statistice"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/formnameTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="email"
+                            android:padding="@dimen/text_padding"
+                            android:text="Cercetări Statistice" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="E-mail"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/emailTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="email"
+                            android:padding="@dimen/text_padding"
+                            android:text="Star" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Informații personale"
+
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/personalinfoTV"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+
+                            android:text="Star" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Pentru administratori"
+
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/deepBlue" />
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/personalinfoTV"-->
+<!--                            android:layout_width="match_parent"-->
+
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:padding="@dimen/text_padding"-->
+
+<!--                            android:text="Star" />-->
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Data crearii"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/deepBlue" />
+
+                        <TextView
+                            android:id="@+id/created_dateTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="email"
+                            android:padding="@dimen/text_padding"
+                            android:text="Star" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Remove date"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/deepBlue" />
+
+                        <TextView
+                            android:id="@+id/remove_dateTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="email"
+                            android:padding="@dimen/text_padding"
+                            android:text="Remove date" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Date Updated"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/deepBlue" />
+
+                        <TextView
+                            android:id="@+id/date_updatedTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="email"
+                            android:padding="@dimen/text_padding"
+                            android:text="Date updated" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Recovery data"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/deepBlue" />
+
+                        <TextView
+                            android:id="@+id/recoverydataTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="email"
+                            android:padding="@dimen/text_padding"
+                            android:text="Recovery data" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/text_padding"
+                            android:text="Statutul"
+
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/deepBlue" />
+
+                                                <TextView
+                                                    android:id="@+id/statutTV"
+                                                    android:layout_width="match_parent"
+
+                                                    android:layout_height="wrap_content"
+                                                    android:padding="@dimen/text_padding"
+
+                                                    android:text="Star" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <!--                <TextView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:text="Period"-->
+                <!--                    android:textAlignment="center"-->
+                <!--                    android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+                <!--                    android:textColor="@color/niceGreenish"-->
+                <!--                    android:textStyle="italic" />-->
+
+                <!--                <androidx.cardview.widget.CardView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_margin="@dimen/card_margin">-->
+
+                <!--                    <LinearLayout-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:orientation="vertical">-->
+
+                <!--                        <TextView-->
+                <!--                            android:layout_width="match_parent"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:padding="@dimen/text_padding"-->
+                <!--                            android:text="Date Of Birth"-->
+                <!--                            android:textAppearance="@style/TextAppearance.AppCompat.Title"-->
+                <!--                            android:textColor="@color/colorAccent" />-->
+
+                <!--                        <TextView-->
+                <!--                            android:id="@+id/dobTV"-->
+                <!--                            android:layout_width="match_parent"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:padding="@dimen/text_padding"-->
+                <!--                            android:text="Galaxy" />-->
+
+                <!--                    </LinearLayout>-->
+
+                <!--                </androidx.cardview.widget.CardView>-->
+
+                <!--                <androidx.cardview.widget.CardView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_margin="@dimen/card_margin">-->
+
+                <!--                    <LinearLayout-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:orientation="vertical">-->
+
+                <!--                        <TextView-->
+                <!--                            android:layout_width="match_parent"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:padding="@dimen/text_padding"-->
+                <!--                            android:text="Date Of Death"-->
+                <!--                            android:textAppearance="@style/TextAppearance.AppCompat.Title"-->
+                <!--                            android:textColor="@color/colorAccent" />-->
+
+                <!--                        <TextView-->
+                <!--                            android:id="@+id/diedTV"-->
+                <!--                            android:layout_width="match_parent"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:padding="@dimen/text_padding"-->
+                <!--                            android:text="Date of Death" />-->
+
+                <!--                    </LinearLayout>-->
+
+                <!--                </androidx.cardview.widget.CardView>-->
+
+                <!--                <androidx.cardview.widget.CardView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_margin="@dimen/card_margin">-->
+
+                <!--                    <LinearLayout-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:orientation="vertical">-->
+
+                <!--                        <TextView-->
+                <!--                            android:layout_width="match_parent"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:padding="@dimen/text_padding"-->
+                <!--                            android:text="CONTRIBUTIONS"-->
+                <!--                            android:textAppearance="@style/TextAppearance.AppCompat.Title"-->
+                <!--                            android:textColor="@color/colorAccent" />-->
+
+                <!--                        <TextView-->
+                <!--                            android:id="@+id/contributionTV"-->
+                <!--                            android:layout_width="match_parent"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:padding="@dimen/text_padding"-->
+                <!--                            android:text="This Scientist is included in this list because of the huge contributions he made to Science." />-->
+
+                <!--                    </LinearLayout>-->
+
+                <!--                </androidx.cardview.widget.CardView>-->
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>
+

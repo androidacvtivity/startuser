@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/mRelativeLayouth_h1h"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/aboutUsToolBarn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/mBackArrowh"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_back_arrow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/mBackArrowh"
+                    android:text="Despre aplicatie"
+                    android:textColor="@color/white"
+                    android:textSize="21sp"
+                    android:layout_marginStart="20dp" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mRelativeLayouth_h"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/mRelativeLayouth_h1h"
+        android:background="@color/colorPrimary"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mRelativeLayouth_h"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h3_h"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shadow_bottom">
+
+                    <!--                    <TextView-->
+                    <!--                        android:id="@+id/address_hTV_h"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_centerVertical="true"-->
+                    <!--                        android:text="Administrative authority"-->
+                    <!--                        android:textColor="@android:color/black"-->
+                    <!--                        android:textStyle="bold" />-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+
+
+                        android:text="Aplicatia lista angajatilor a fost dezvoltata pentru a facilita accesul la informatia de contact prin intermediul telefonullui mobil (Sistem de operare: Android)." />
+
+                    <!--                    <Button-->
+                    <!--                        android:id="@+id/locatebtn"-->
+                    <!--                        android:layout_width="70dp"-->
+                    <!--                        android:layout_height="30dp"-->
+                    <!--                        android:layout_alignParentEnd="true"-->
+                    <!--                        android:layout_alignParentRight="true"-->
+                    <!--                        android:layout_centerVertical="true"-->
+                    <!--                        android:layout_marginRight="5dp"-->
+                    <!--                        android:background="@drawable/locate_btn_background"-->
+                    <!--                        android:text="LOCATE"-->
+                    <!--                        android:textColor="@color/white" />-->
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/nnt_h"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mRelativeLayouth_h3_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <!--                    <TextView-->
+                    <!--                        android:id="@+id/currentCityLabel_h"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_centerVertical="true"-->
+                    <!--                        android:text="Division"-->
+                    <!--                        android:textColor="@android:color/black"-->
+                    <!--                        android:textStyle="bold" />-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+
+                        android:text="Aplicatia include lista profilurilor angajatilor cu informatia de contact. " />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/sds_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nnt_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <!--                    <TextView-->
+                    <!--                        android:id="@+id/contactNoLabel_h"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_centerVertical="true"-->
+                    <!--                        android:text="Mobile number"-->
+                    <!--                        android:textColor="@android:color/black"-->
+                    <!--                        android:textStyle="bold" />-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+
+
+                        android:text="Functiile puse la dispozitie de programul (Lista functionarilor din BNS(denumire conventionala)) au fost grupate pe categorii si sunt prezentate mau jos." />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h4_h"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sds_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/websiteLabel_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="1"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/websiteLabel_h"
+
+                        android:text="Afiseaza lista functionarilor din BNS si structurile teritoriale. (Prin conectarea la baza de date MySQL aici sunt stocate datele.De ce este o aplcatie client - server ? Se utilizeaza principiul client server ca si la aplicatie web intranet.statistica.md). Se actualizeaza informatia  despre angajat in baza. Si orice angajat care are instalata aceasta aplicatie  pe telefonul sau mobil, Android OS, acceseza datele actualizate."
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h5_h"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mRelativeLayouth_h4_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/address_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:autoLink="email"
+                        android:text="2"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/address_h"
+                        android:text="Lista datelor deschise care sunt afisate despre (functionarul/angajatul) din BNS si strcuturile teritoriale." />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h6_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h5_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/emailLabel_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.1"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/emailLabel_h"
+
+                        android:text="Nume, Prenume" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h7_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h6_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/locatia_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.2"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/locatia_h"
+
+                        android:text="Locația - Adresa" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h8_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h7_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/etajul_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.3"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/etajul_h"
+
+                        android:text=" Etajul" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h9_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h8_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/biroul_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.4"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/biroul_h"
+
+                        android:text=" Biroul " />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h10_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h9_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/functia_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.5"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/functia_h"
+
+                        android:text=" Funcția " />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h11_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h10_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/serviciu_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.6"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/serviciu_h"
+
+                        android:text=" Serviciu " />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h12_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h11_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/sectia_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.7"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/sectia_h"
+
+                        android:text=" Secția " />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h13_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h12_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/directia_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.8"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/directia_h"
+
+                        android:text=" Dirtecția " />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h14_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h13_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/directiagenerala_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.9"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/directiagenerala_h"
+
+                        android:text=" Dirtecția generală " />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h15_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h14_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/phoneintern_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.10"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/phoneintern_h"
+
+                        android:text=" Telefonul fix de serviciu. " />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h16_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h15_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/phonemobile_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.11"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/phonemobile_h"
+
+                        android:text=" Telefonul mobil de sreviciu. " />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h17_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h16_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/phonemobileintern_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.12"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/phonemobileintern_h"
+
+                        android:text=" Telefon intern " />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h18_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mRelativeLayouth_h17_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/cercetare_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.13"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/cercetare_h"
+
+                        android:text=" Cercetări Statistice - Daca functinarul este administratorul/curatorul unei sau catorva Cercetări Statistice - se poate indica Cercetarea Statistica" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h19_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h18_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/email_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.14"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/email_h"
+
+                        android:text="E-mail" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h20_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h19_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/info_gen_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="2.15"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/info_gen_h"
+
+                        android:text="Informații personale - Un camp cu sens foarte general. " />
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h21_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mRelativeLayouth_h20_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/chapter3_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="3"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/chapter3_h"
+
+                        android:text="Functia de cautarea permite cautarea dupa urmatoarele campuri" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h22_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h21_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/chapter4_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="3.1"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/chapter4_h"
+
+                        android:text="Nume sau prenume" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h23_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h22_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/chapter5_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="3.2"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/chapter5_h"
+
+                        android:text="Dupa functie" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h24_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h23_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/chapter6_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="3.3"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/chapter6_h"
+
+                        android:text="Dupa Dirtecția generală" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h25_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h24_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/chapter7_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="3.4"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/chapter7_h"
+
+                        android:text="Dupa directie" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h26_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h25_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/chapter8_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="3.5"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/chapter8_h"
+
+                        android:text="Dupa sectie" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h27_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h26_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/chapter9_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="3.6"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/chapter9_h"
+
+                        android:text="Dupa serviciu" />
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h28_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h27_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/chapter10_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="3.7"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/chapter10_h"
+
+                        android:text="Dupa telefon" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h29_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h28_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/chapter11_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="3.7"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/chapter11_h"
+
+                        android:text="Dupa adresa" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h30_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayouth_h29_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/chapter12_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="3.8"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/chapter12_h"
+
+                        android:text="Dupa telefonul mobil de serviciu" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h31_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mRelativeLayouth_h30_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/chapter14_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="4"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/chapter14_h"
+
+                        android:text="Functia de cautare cauta simultan in toate campurile in care este permisa cautarea." />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h32_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mRelativeLayouth_h31_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/chapter15_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="4.1"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/chapter15_h"
+
+                        android:text="Cautarea este realizata dupa principu (apariția unei subcadențe în șir)." />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h33_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mRelativeLayouth_h32_h"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/chapter16_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+
+                        android:text="4.2"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/chapter16_h"
+
+                        android:text="Numerele de telefoane fixe si mobile, adresele de e-mail de pe profil cat si din interiorul profilului, permit direct apelarea  prin simplu clic. " />
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>
