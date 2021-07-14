@@ -1,5 +1,7 @@
 package com.alinasoft.startuser.Helpers;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.view.Gravity;
@@ -147,6 +149,17 @@ public class Utils {
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         c.startActivity(intent);
     }
+
+
+//    public static AlertDialog showDialog  (final AppCompatActivity activity, String title,
+//                                           String message){
+//
+//
+//
+//    }
+
+
+
     /**
      * This method will allow us show an Info dialog anywhere in our app.
      */
@@ -163,6 +176,9 @@ public class Utils {
                 .setNegativeButton("The List", v -> openActivity(activity, ScientistsActivity.class))
                 .show();
     }
+
+
+
 
 
 
