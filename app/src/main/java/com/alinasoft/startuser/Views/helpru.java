@@ -1,9 +1,10 @@
 package com.alinasoft.startuser.Views;
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.MenuInflater;
+
 import android.view.MenuItem;
-import android.widget.SearchView;
+
 
 import com.alinasoft.startuser.Retrofit.Scientist;
 import androidx.appcompat.widget.Toolbar;
@@ -54,6 +55,7 @@ public class helpru extends BaseActivity{
     /**
      * When a menu item is selected we want to navigate to the appropriate page
      */
+    @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
