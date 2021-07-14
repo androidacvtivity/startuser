@@ -1,18 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: android.helper:datetimepickeredittext:1.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d7847352a87ecff55c7f86fcb2a15b0/jetified-datetimepickeredittext-1.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d7847352a87ecff55c7f86fcb2a15b0/jetified-datetimepickeredittext-1.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d7847352a87ecff55c7f86fcb2a15b0/jetified-datetimepickeredittext-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/676c61454fb02b27fd213f39a40e7fa4/jetified-datetimepickeredittext-1.0.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/676c61454fb02b27fd213f39a40e7fa4/jetified-datetimepickeredittext-1.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/676c61454fb02b27fd213f39a40e7fa4/jetified-datetimepickeredittext-1.0.0/jars/classes.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c5169abfc6d377a1d0962855761b660e/jetified-datetimepickeredittext-1.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c5169abfc6d377a1d0962855761b660e/jetified-datetimepickeredittext-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c5169abfc6d377a1d0962855761b660e/jetified-datetimepickeredittext-1.0.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e62b09cb5578dbe742965ed522b87e0f/jetified-datetimepickeredittext-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e62b09cb5578dbe742965ed522b87e0f/jetified-datetimepickeredittext-1.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e62b09cb5578dbe742965ed522b87e0f/jetified-datetimepickeredittext-1.0.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29441d72d283f30d94b315be8e6e7fd2/jetified-datetimepickeredittext-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29441d72d283f30d94b315be8e6e7fd2/jetified-datetimepickeredittext-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29441d72d283f30d94b315be8e6e7fd2/jetified-datetimepickeredittext-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.helper/datetimepickeredittext/1.0.0/7789c9075c8d1f699e9748094064208cfad6db68/datetimepickeredittext-1.0.0-javadoc.jar!/" />
