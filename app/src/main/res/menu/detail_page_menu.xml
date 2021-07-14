@@ -6,7 +6,7 @@
     tools:context=".Views.DetailActivity">
 
     <item
-        android:id="@+id/action_edit"
-        android:title="Editează/Șterge"
+        android:id="@+id/actionedit"
+        android:title="@string/editeaz_terge"
         app:showAsAction="never" />
 </menu>
