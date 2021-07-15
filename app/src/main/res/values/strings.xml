@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Admin Access mobile</string>
+    <string name="editeaz_terge">Editează/Șterge</string>
+    <string name="view_all">VIEW ALL</string>
+    <string name="english_language">english language</string>
+    <string name="romanian_language">romanian language</string>
+    <string name="russian_language">russian language</string>
 </resources>

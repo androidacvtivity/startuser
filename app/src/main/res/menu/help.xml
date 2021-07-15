@@ -18,26 +18,26 @@
 
     <item
         android:id="@+id/viewAllMenuItem"
-        android:title="VIEW ALL"
+        android:title="@string/view_all"
         android:icon="@drawable/m_list"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/enlang"
 
-        android:title="english language"
+        android:title="@string/english_language"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/rolang"
 
-        android:title="romanian language"
+        android:title="@string/romanian_language"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/rulang"
 
-        android:title="russian language"
+        android:title="@string/russian_language"
         app:showAsAction="never" />
 
 </menu>

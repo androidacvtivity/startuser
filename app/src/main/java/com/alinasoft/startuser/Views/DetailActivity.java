@@ -1,11 +1,12 @@
 package com.alinasoft.startuser.Views;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.NavUtils;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -23,9 +24,8 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
 
     //Let's define our instance fields
     private TextView nameTV,descriptionTV,galaxyTV,starTV,serviciuTV, sectiaTV, departTV, phoneTV, phoneinternalTV, emailTV, personalinfoTV,
-            formnameTV,phonemobilTV, floorTV, officeTV,created_dateTV, statutTV, remove_dateTV, date_updatedTV, recoverydataTV;
+            formnameTV,phonemobilTV, floorTV, officeTV,created_dateTV, statutTV, remove_dateTV, date_updatedTV ;
 
-    private FloatingActionButton editFAB;
     private Scientist receivedScientist;
     private CollapsingToolbarLayout mCollapsingToolbarLayout;
 
@@ -57,7 +57,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
 
 //        dobTV= findViewById(R.id.dobTV);
 //        diedTV= findViewById(R.id.diedTV);
-        editFAB=findViewById(R.id.editFAB);
+        FloatingActionButton editFAB = findViewById(R.id.editFAB);
 		editFAB.setOnClickListener(this);
         mCollapsingToolbarLayout=findViewById(R.id.mCollapsingToolbarLayout);
     }
@@ -113,10 +113,11 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
     /**
      * When a menu item is selected we want to navigate to the appropriate page
      */
+    @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.action_edit:
+            case R.id.actionedit:
                 Utils.sendScientistToActivity(this,receivedScientist,CRUDActivity.class);
                 finish();
                 return true;
