@@ -51,6 +51,8 @@ public class Utils {
 
 
      private  static  final String base_url = "http://bancusoft.com/PHP/bns/";
+   // private  static  final String base_url = "http://192.168.0.102/PHP/bns/";
+
   //  private  static  final String base_url = "http://192.168.0.100/PHP/bns/";
     //private  static  final String base_url = "http://10.0.3.2/PHP/scientists/";
 
