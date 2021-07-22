@@ -98,7 +98,10 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
 
              mCollapsingToolbarLayout.setTitle(receivedScientist.getName());
              mCollapsingToolbarLayout.setExpandedTitleColor(getResources().
-             getColor(R.color.white));
+                                                                                  getColor(R.color.white));
+//
+
+             //mCollapsingToolbarLayout.setExpandedTitleColor(getResources().getColor();
          }
     }
     /**

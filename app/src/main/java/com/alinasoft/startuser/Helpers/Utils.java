@@ -1,8 +1,8 @@
 package com.alinasoft.startuser.Helpers;
 
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.view.Gravity;
 import android.view.View;
@@ -14,8 +14,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.alinasoft.startuser.Views.ScientistsActivity;
-import com.yarolegovich.lovelydialog.LovelyChoiceDialog;
-import com.yarolegovich.lovelydialog.LovelyStandardDialog;
+//import com.yarolegovich.lovelydialog.LovelyChoiceDialog;
+//import com.yarolegovich.lovelydialog.LovelyStandardDialog;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -51,10 +51,12 @@ public class Utils {
 
 
      private  static  final String base_url = "http://bancusoft.com/PHP/bns/";
+   // private  static  final String base_url = "http://192.168.0.102/PHP/bns/";
+
   //  private  static  final String base_url = "http://192.168.0.100/PHP/bns/";
     //private  static  final String base_url = "http://10.0.3.2/PHP/scientists/";
 
-  //  private  static  final String base_url =   "http://172.20.14.3/PHP/bns/";
+   // private  static  final String base_url =   "http://172.20.1.154/PHP/bns/";
     private static Retrofit retrofit = null;
     public static final String DATE_FORMAT = "yyyy-MM-dd";
     /**
@@ -143,11 +145,13 @@ public class Utils {
     }
     /**
      * This utility method will allow us open any activity.
+     * @return
      */
-    public static void openActivity(Context c,Class clazz){
+    public static DialogInterface.OnClickListener openActivity(Context c, Class clazz){
         Intent intent = new Intent(c, clazz);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         c.startActivity(intent);
+        return null;
     }
 
 
@@ -165,19 +169,47 @@ public class Utils {
      */
     public static void showInfoDialog(final AppCompatActivity activity, String title,
                                       String message) {
-        new LovelyStandardDialog(activity, LovelyStandardDialog.ButtonLayout.HORIZONTAL)
-                .setTopColorRes(R.color.indigo)
-                .setButtonsColorRes(R.color.darkDeepOrange)
+
+        AlertDialog dialog = new AlertDialog.Builder(activity)
+
+        .setTitle(title)
                 .setIcon(R.drawable.m_info)
-                .setTitle(title)
                 .setMessage(message)
-                .setPositiveButton("Relax", v -> {})
-                .setNeutralButton("Dashboard", v -> openActivity(activity, DashboardActivity.class))
-                .setNegativeButton("The List", v -> openActivity(activity, ScientistsActivity.class))
+                .setPositiveButton("Relax",null)
+                .setNeutralButton("Dashboard", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        openActivity(activity,DashboardActivity.class);
+                    }
+                })
+                .setNegativeButton("The List", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        openActivity(activity,ScientistsActivity.class);
+                    }
+                })
+
                 .show();
     }
 
 
+
+//    /**
+//     * This method will allow us show an Info dialog anywhere in our app.
+//     */
+//    public static void showInfoDialog(final AppCompatActivity activity, String title,
+//                                      String message) {
+//        new LovelyStandardDialog(activity, LovelyStandardDialog.ButtonLayout.HORIZONTAL)
+//                .setTopColorRes(R.color.indigo)
+//                .setButtonsColorRes(R.color.darkDeepOrange)
+//                .setIcon(R.drawable.m_info)
+//                .setTitle(title)
+//                .setMessage(message)
+//                .setPositiveButton("Relax", v -> {})
+//                .setNeutralButton("Dashboard", v -> openActivity(activity, DashboardActivity.class))
+//                .setNegativeButton("The List", v -> openActivity(activity, ScientistsActivity.class))
+//                .show();
+//    }
 
 
 
@@ -187,104 +219,258 @@ public class Utils {
     /**
      * This method will allow us show an Info dialog anywhere in our app.
      */
+//    public static void showInfoDialog_help_ro(final AppCompatActivity activity, String title,
+//                                              String message) {
+//
+//        new LovelyStandardDialog(activity, LovelyStandardDialog.ButtonLayout.HORIZONTAL)
+//                .setTopColorRes(R.color.indigo)
+//                .setButtonsColorRes(R.color.darkDeepOrange)
+//                .setIcon(R.drawable.m_info)
+//
+//                .setTitle(title)
+//                .setMessage(message)
+//
+//
+//
+//                .setPositiveButton("en", v -> openActivity(activity, helpen.class))
+//                .setNeutralButton("La inceput", v -> openActivity(activity, DashboardActivity.class))
+//                .setNegativeButton("ru", v -> openActivity(activity, helpru.class))
+//
+//                .show();
+//    }
+//
+//
+
+
+
     public static void showInfoDialog_help_ro(final AppCompatActivity activity, String title,
-                                              String message) {
+                                      String message) {
 
-        new LovelyStandardDialog(activity, LovelyStandardDialog.ButtonLayout.HORIZONTAL)
-                .setTopColorRes(R.color.indigo)
-                .setButtonsColorRes(R.color.darkDeepOrange)
-                .setIcon(R.drawable.m_info)
+        AlertDialog dialog = new AlertDialog.Builder(activity)
 
                 .setTitle(title)
+                .setIcon(R.drawable.m_info)
                 .setMessage(message)
-                .setPositiveButton("en", v -> openActivity(activity, helpen.class))
-                .setNeutralButton("La inceput", v -> openActivity(activity, DashboardActivity.class))
-                .setNegativeButton("ru", v -> openActivity(activity, helpru.class))
+                .setPositiveButton("en", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        openActivity(activity, helpen.class);
+                    }
+                })
+
+
+                .setNeutralButton("La inceput", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        openActivity(activity,DashboardActivity.class);
+                    }
+                })
+                .setNegativeButton("ru", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        openActivity(activity,helpru.class);
+                    }
+                })
 
                 .show();
     }
 
 
 
-    /**
-     * This method will allow us show an Info dialog anywhere in our app.
-     */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    /**
+//     * This method will allow us show an Info dialog anywhere in our app.
+//     */
+//    public static void showInfoDialog_help_en(final AppCompatActivity activity, String title,
+//                                              String message) {
+//
+//        new LovelyStandardDialog(activity, LovelyStandardDialog.ButtonLayout.HORIZONTAL)
+//                .setTopColorRes(R.color.indigo)
+//                .setButtonsColorRes(R.color.darkDeepOrange)
+//                .setIcon(R.drawable.m_info)
+//                .setTitle(title)
+//                .setMessage(message)
+//
+//                .setPositiveButton("ro", v -> openActivity(activity, help.class))
+//                .setNeutralButton("Dashboard", v -> openActivity(activity, DashboardActivity.class))
+//                .setNegativeButton("ru", v -> openActivity(activity, helpru.class))
+//
+//                .show();
+//    }
+
+
+
+
+
+
     public static void showInfoDialog_help_en(final AppCompatActivity activity, String title,
                                               String message) {
 
-        new LovelyStandardDialog(activity, LovelyStandardDialog.ButtonLayout.HORIZONTAL)
-                .setTopColorRes(R.color.indigo)
-                .setButtonsColorRes(R.color.darkDeepOrange)
-                .setIcon(R.drawable.m_info)
-                .setTitle(title)
-                .setMessage(message)
+        AlertDialog dialog = new AlertDialog.Builder(activity)
 
-                .setPositiveButton("ro", v -> openActivity(activity, help.class))
-                .setNeutralButton("Dashboard", v -> openActivity(activity, DashboardActivity.class))
-                .setNegativeButton("ru", v -> openActivity(activity, helpru.class))
+                .setTitle(title)
+                .setIcon(R.drawable.m_info)
+                .setMessage(message)
+                .setPositiveButton("ro", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        openActivity(activity, help.class);
+                    }
+                })
+
+
+                .setNeutralButton("La inceput", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        openActivity(activity,DashboardActivity.class);
+                    }
+                })
+                .setNegativeButton("ru", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        openActivity(activity,helpru.class);
+                    }
+                })
 
                 .show();
     }
 
 
 
-    /**
-     * This method will allow us show an Info dialog anywhere in our app.
-     */
+
+//    /**
+//     * This method will allow us show an Info dialog anywhere in our app.
+//     */
+//    public static void showInfoDialog_help_ru(final AppCompatActivity activity, String title,
+//                                              String message) {
+//
+//        new LovelyStandardDialog(activity, LovelyStandardDialog.ButtonLayout.HORIZONTAL)
+//                .setTopColorRes(R.color.indigo)
+//                .setButtonsColorRes(R.color.darkDeepOrange)
+//                .setIcon(R.drawable.m_info)
+//                .setTitle(title)
+//                .setMessage(message)
+//
+//                .setPositiveButton("ro", v -> openActivity(activity, help.class))
+//                .setNeutralButton("В начало", v -> openActivity(activity, DashboardActivity.class))
+//                .setNegativeButton("en", v -> openActivity(activity, helpen.class))
+//
+//
+//                .show();
+//    }
+
+
+
+
+
+
+
     public static void showInfoDialog_help_ru(final AppCompatActivity activity, String title,
                                               String message) {
 
-        new LovelyStandardDialog(activity, LovelyStandardDialog.ButtonLayout.HORIZONTAL)
-                .setTopColorRes(R.color.indigo)
-                .setButtonsColorRes(R.color.darkDeepOrange)
-                .setIcon(R.drawable.m_info)
+        AlertDialog dialog = new AlertDialog.Builder(activity)
+
                 .setTitle(title)
+                .setIcon(R.drawable.m_info)
                 .setMessage(message)
+                .setPositiveButton("ro", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        openActivity(activity, help.class);
+                    }
+                })
 
-                .setPositiveButton("ro", v -> openActivity(activity, help.class))
-                .setNeutralButton("В начало", v -> openActivity(activity, DashboardActivity.class))
-                .setNegativeButton("en", v -> openActivity(activity, helpen.class))
 
+                .setNeutralButton("В начало", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        openActivity(activity,DashboardActivity.class);
+                    }
+                })
+                .setNegativeButton("en", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        openActivity(activity,helpen.class);
+                    }
+                })
 
                 .show();
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     /**
      * This method will allow us show a single select dialog where we can select and return a
      * star to an edittext.
      */
-     public static void selectStar(Context c,final EditText starTxt){
-//        String[] stars ={"Rigel","Aldebaran","Arcturus","Betelgeuse","Antares","Deneb",
-//        "Wezen","VY Canis Majoris","Sirius","Alpha Pegasi","Vega","Saiph","Polaris",
-//        "Canopus","KY Cygni","VV Cephei","Uy Scuti","Bellatrix","Naos","Pollux",
-//        "Achernar","Other"};
-
-    String[] stars ={"Director General","Director general adjunct","tehnologii informationale","statistica intreprinderilor","statistica macroeconomica","colectarea datelor entitati economice",
-
-            "statistica sociala si demografie","CRS NORD","CRS NORD Balti","CRS NORD Briceni","CRS NORD Donduseni","CRS NORD Drochia","CRS NORD Edinet",
-
-            "CRS NORD Falesti","CRS NORD Floresti","CRS NORD Glodeni","CRS NORD Ocnita","CRS NORD Rezina","CRS NORD Rascani","CRS NORD Sangerei",
-
-            "CRS NORD Soroca","CRS NORD Soldanesti", "CRS NORD Soldanesti","CRS NORD Telenesti","CRS CENTRU","CRS CENTRU Anenii-Noi",
-            "CRS CENTRU Calarasi","CRS CENTRU Causeni","CRS CENTRU Cimislia","CRS CENTRU Criuleni",
-            "CRS CENTRU Dubasari Cocieri","CRS CENTRU Hancesti","CRS CENTRU Ialoveni","CRS CENTRU Nisporeni",
-            "CRS CENTRU Orhei","CRS CENTRU Straseni","CRS CENTRU Stefan-Voda","CRS CENTRU Ungheni","CRS SUD","CRS SUD Basarabeasca",
-            "CRS SUD Cahul","CRS SUD Cantemir","CRS SUD UTA Gagauzia","CRS SUD Leova","CRS SUD Taraclia","CRS CENTRU Donduseni","CRS CENTRU Drochia",
-            "CRS CENTRU Dubasari (Cocieri)"};
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(c,
-         android.R.layout.simple_list_item_1,
-                stars);
-        new LovelyChoiceDialog(c)
-                .setTopColorRes(R.color.darkGreen)
-                .setTitle("Direcția generală")
-                .setTitleGravity(Gravity.CENTER_HORIZONTAL)
-                .setIcon(R.drawable.m_star)
-                .setMessage("Selectați Direcția generală sau cenrtul regional")
-                .setMessageGravity(Gravity.CENTER_HORIZONTAL)
-                .setItems(adapter, (position, item) -> starTxt.setText(item))
-                .show();
-    }
+//     public static void selectStar(Context c,final EditText starTxt){
+////        String[] stars ={"Rigel","Aldebaran","Arcturus","Betelgeuse","Antares","Deneb",
+////        "Wezen","VY Canis Majoris","Sirius","Alpha Pegasi","Vega","Saiph","Polaris",
+////        "Canopus","KY Cygni","VV Cephei","Uy Scuti","Bellatrix","Naos","Pollux",
+////        "Achernar","Other"};
+//
+//    String[] stars ={"Director General","Director general adjunct","tehnologii informationale","statistica intreprinderilor","statistica macroeconomica","colectarea datelor entitati economice",
+//
+//            "statistica sociala si demografie","CRS NORD","CRS NORD Balti","CRS NORD Briceni","CRS NORD Donduseni","CRS NORD Drochia","CRS NORD Edinet",
+//
+//            "CRS NORD Falesti","CRS NORD Floresti","CRS NORD Glodeni","CRS NORD Ocnita","CRS NORD Rezina","CRS NORD Rascani","CRS NORD Sangerei",
+//
+//            "CRS NORD Soroca","CRS NORD Soldanesti", "CRS NORD Soldanesti","CRS NORD Telenesti","CRS CENTRU","CRS CENTRU Anenii-Noi",
+//            "CRS CENTRU Calarasi","CRS CENTRU Causeni","CRS CENTRU Cimislia","CRS CENTRU Criuleni",
+//            "CRS CENTRU Dubasari Cocieri","CRS CENTRU Hancesti","CRS CENTRU Ialoveni","CRS CENTRU Nisporeni",
+//            "CRS CENTRU Orhei","CRS CENTRU Straseni","CRS CENTRU Stefan-Voda","CRS CENTRU Ungheni","CRS SUD","CRS SUD Basarabeasca",
+//            "CRS SUD Cahul","CRS SUD Cantemir","CRS SUD UTA Gagauzia","CRS SUD Leova","CRS SUD Taraclia","CRS CENTRU Donduseni","CRS CENTRU Drochia",
+//            "CRS CENTRU Dubasari (Cocieri)"};
+//        ArrayAdapter<String> adapter = new ArrayAdapter<String>(c,
+//         android.R.layout.simple_list_item_1,
+//                stars);
+////        new LovelyChoiceDialog(c)
+////                .setTopColorRes(R.color.darkGreen)
+////                .setTitle("Direcția generală")
+////                .setTitleGravity(Gravity.CENTER_HORIZONTAL)
+////                .setIcon(R.drawable.m_star)
+////                .setMessage("Selectați Direcția generală sau cenrtul regional")
+////                .setMessageGravity(Gravity.CENTER_HORIZONTAL)
+////                .setItems(adapter, (position, item) -> starTxt.setText(item))
+////                .show();
+////
+//
+//
+//     }
 
     /**
      * This method will allow us convert a string into a java.util.Date object and
