@@ -1,22 +1,23 @@
 package com.alinasoft.startuser.Views;
+
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.SearchView;
 
-import com.alinasoft.startuser.Retrofit.Scientist;
 import androidx.appcompat.widget.Toolbar;
 
 import com.alinasoft.startuser.Helpers.Utils;
 import com.alinasoft.startuser.R;
-
+import com.alinasoft.startuser.Retrofit.Scientist;
 
 
 public class help extends BaseActivity {
 
-    private Scientist receivedScientist;
+    private final Scientist receivedScientist;
 
+    public help(Scientist receivedScientist) {
+        this.receivedScientist = receivedScientist;
+    }
 
 
     @Override
@@ -59,28 +60,40 @@ public class help extends BaseActivity {
      */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.rolang:
-                Utils.sendScientistToActivity(this, receivedScientist, help.class);
-                finish();
-                return true;
 
-            case R.id.enlang:
-                Utils.sendScientistToActivity(this, receivedScientist, helpen.class);
-                finish();
-                return true;
+        int id = item.getItemId();
 
-            case R.id.rulang:
-                Utils.sendScientistToActivity(this,receivedScientist,helpru.class);
-                finish();
-                return true;
+        if (id==R.id.rolang){
 
-//            case android.R.id.home:
-//
-//                Utils.sendScientistToActivity(this,receivedScientist,ScientistsActivity.class);
+            Utils.sendScientistToActivity(this, receivedScientist, help.class);
+            finish();
+            return true;
+
+        }
+
+
+
+//        switch (item.getItemId()) {
+//            case R.id.rolang:
+//                Utils.sendScientistToActivity(this, receivedScientist, help.class);
 //                finish();
 //                return true;
-        }
+//
+//            case R.id.enlang:
+//                Utils.sendScientistToActivity(this, receivedScientist, helpen.class);
+//                finish();
+//                return true;
+//
+//            case R.id.rulang:
+//                Utils.sendScientistToActivity(this,receivedScientist,helpru.class);
+//                finish();
+//                return true;
+//
+//
+//        }
+
+
+
         return super.onOptionsItemSelected(item);
 
     }
