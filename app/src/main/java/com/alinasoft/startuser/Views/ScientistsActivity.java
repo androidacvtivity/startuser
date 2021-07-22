@@ -36,7 +36,7 @@ public class ScientistsActivity extends AppCompatActivity
     private RecyclerView rv;
     private MyAdapter mAdapter;
     private LinearLayoutManager layoutManager;
-    public ArrayList<Scientist> allPagesScientists = new ArrayList();
+    public ArrayList<Scientist> allPagesScientists = new ArrayList<Scientist>();
     private List<Scientist> currentPageScientists;
     private Boolean isScrolling = false;
     private int currentScientists, totalScientists, scrolledOutScientists;

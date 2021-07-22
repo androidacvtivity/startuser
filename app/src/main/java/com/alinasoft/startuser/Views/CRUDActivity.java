@@ -342,9 +342,9 @@ public class CRUDActivity extends AppCompatActivity {
     /**
      * Show selected star in our edittext
      */
-    private void showSelectedStarInEditText() {
-        starTxt.setOnClickListener(v -> Utils.selectStar(c, starTxt));
-    }
+//    private void showSelectedStarInEditText() {
+//        starTxt.setOnClickListener(v -> Utils.selectStar(c, starTxt));
+//    }
     /**
      * When our back button is pressed
      */
@@ -479,7 +479,7 @@ public class CRUDActivity extends AppCompatActivity {
         setContentView(R.layout.activity_crud);
 
         this.initializeWidgets();
-        this.showSelectedStarInEditText();
+       // this.showSelectedStarInEditText();
     }
 }
 //end
