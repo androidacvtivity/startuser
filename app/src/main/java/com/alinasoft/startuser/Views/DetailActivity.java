@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.view.Menu;
 import android.view.MenuItem;
@@ -97,8 +98,10 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
 //             diedTV.setText(receivedScientist.getDied());
 
              mCollapsingToolbarLayout.setTitle(receivedScientist.getName());
-             mCollapsingToolbarLayout.setExpandedTitleColor(getResources().
-                                                                                  getColor(R.color.white));
+//             mCollapsingToolbarLayout.setExpandedTitleColor(getResources().
+//                                                                                  getColor(R.color.white));
+
+             mCollapsingToolbarLayout.setExpandedTitleColor(ContextCompat.getColor(this, R.color.white));
 //
 
              //mCollapsingToolbarLayout.setExpandedTitleColor(getResources().getColor();
