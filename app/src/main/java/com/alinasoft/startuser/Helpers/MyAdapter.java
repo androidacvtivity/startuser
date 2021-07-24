@@ -190,7 +190,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         }
 
         else {
-            //Utils.show(ctx, "Search string empty");
+         //   Utils.show(ctx, "Search string empty");
         }
 //highligh star text while searching
         if (star.contains(searchString) && !(searchString.isEmpty())) {
