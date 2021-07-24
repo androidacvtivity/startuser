@@ -5,7 +5,7 @@ android {
     defaultConfig {
         applicationId "com.alinasoft.startuser"
         minSdkVersion 23
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "2.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
