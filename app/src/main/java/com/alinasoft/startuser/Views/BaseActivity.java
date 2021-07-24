@@ -1,9 +1,7 @@
 package com.alinasoft.startuser.Views;
-import android.content.Context;
-import android.content.Intent;
-import android.widget.EditText;
+
 import androidx.appcompat.app.AppCompatActivity;
-import java.io.File;
+
 import com.alinasoft.startuser.Helpers.Utils;
 
 

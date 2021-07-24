@@ -24,8 +24,8 @@ import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 public class DetailActivity extends AppCompatActivity implements View.OnClickListener {
 
     //Let's define our instance fields
-    private TextView nameTV,descriptionTV,galaxyTV,starTV,serviciuTV, sectiaTV, departTV, phoneTV, phoneinternalTV, emailTV, personalinfoTV,
-            formnameTV,phonemobilTV, floorTV, officeTV,created_dateTV, statutTV, remove_dateTV, date_updatedTV ;
+    private TextView nameTV,descriptionTV,galaxyTV,starTV, serveTV, sectionTV, departTV, phoneTV, phoneticianTV, emailTV, personalityTV,
+            forenameTV, phonemicTV, floorTV, officeTV,created_dateTV, statuteTV, remove_dateTV, date_updatedTV ;
 
     private Scientist receivedScientist;
     private CollapsingToolbarLayout mCollapsingToolbarLayout;
@@ -38,19 +38,19 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
         descriptionTV= findViewById(R.id.descriptionTV);
         galaxyTV= findViewById(R.id.galaxyTV);
         starTV= findViewById(R.id.starTV);
-        serviciuTV = findViewById(R.id.serviciuTV);
-        sectiaTV = findViewById(R.id.sectiaTV);
+        serveTV = findViewById(R.id.serviciuTV);
+        sectionTV = findViewById(R.id.sectiaTV);
         departTV = findViewById(R.id.departTV);
         phoneTV = findViewById(R.id.phoneTV);
-        phoneinternalTV = findViewById(R.id.phoneinternalTV);
+        phoneticianTV = findViewById(R.id.phoneinternalTV);
         emailTV = findViewById(R.id.emailTV);
-        personalinfoTV = findViewById(R.id.personalinfoTV);
-        formnameTV = findViewById(R.id.formnameTV);
-        phonemobilTV = findViewById(R.id.phonemobilTV);
+        personalityTV = findViewById(R.id.personalinfoTV);
+        forenameTV = findViewById(R.id.formnameTV);
+        phonemicTV = findViewById(R.id.phonemobilTV);
         floorTV = findViewById(R.id.floorTV);
         officeTV = findViewById(R.id.officeTV);
         created_dateTV  = findViewById(R.id.created_dateTV);
-        statutTV = findViewById(R.id.statutTV);
+        statuteTV = findViewById(R.id.statutTV);
         remove_dateTV = findViewById(R.id.recoverydataTV);
         date_updatedTV = findViewById(R.id.date_updatedTV);
         remove_dateTV = findViewById(R.id.remove_dateTV);
@@ -74,20 +74,20 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
              descriptionTV.setText(receivedScientist.getDescription());
              galaxyTV.setText(receivedScientist.getGalaxy());
              starTV.setText(receivedScientist.getStar());
-             serviciuTV.setText(receivedScientist.getServiciu());
-             sectiaTV.setText(receivedScientist.getSectia());
+             serveTV.setText(receivedScientist.getServiciu());
+             sectionTV.setText(receivedScientist.getSectia());
              departTV.setText(receivedScientist.getDepart());
              phoneTV.setText(receivedScientist.getPhone());
-             phoneinternalTV.setText(receivedScientist.getPhoneinternal());
+             phoneticianTV.setText(receivedScientist.getPhoneinternal());
              emailTV.setText(receivedScientist.getEmail());
-             personalinfoTV.setText(receivedScientist.getPersonalinfo());
-             formnameTV.setText(receivedScientist.getFormname());
-             phonemobilTV.setText(receivedScientist.getPhonemobil());
+             personalityTV.setText(receivedScientist.getPersonalinfo());
+             forenameTV.setText(receivedScientist.getFormname());
+             phonemicTV.setText(receivedScientist.getPhonemobil());
              floorTV.setText(receivedScientist.getFloor());
              officeTV.setText(receivedScientist.getOffice());
              created_dateTV.setText(receivedScientist.getCreated_date());
 
-             statutTV.setText(receivedScientist.getStatut());
+             statuteTV.setText(receivedScientist.getStatut());
              remove_dateTV.setText(receivedScientist.getRemove_date());
              date_updatedTV.setText(receivedScientist.getDate_updated());
              remove_dateTV.setText(receivedScientist.getRemove_date());
