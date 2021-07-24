@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
+        android:exported="false"
         android:name="com.alinasoft.startuser.App"
         android:allowBackup="true"
         android:fullBackupContent="true"
@@ -15,25 +16,28 @@
         android:usesCleartextTraffic="true"
         android:vmSafeMode="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.alinasoft.startuser.Views.SplashActivity" android:theme="@style/SplashTheme">
+        <activity android:name="com.alinasoft.startuser.Views.SplashActivity" android:theme="@style/SplashTheme" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.alinasoft.startuser.Views.DashboardActivity" android:theme="@style/HomeTheme">
+        <activity android:name="com.alinasoft.startuser.Views.DashboardActivity" android:theme="@style/HomeTheme" android:exported="true">
         </activity>
         <activity
             android:name="com.alinasoft.startuser.Views.ScientistsActivity"
+            android:exported="true"
             android:label="Angajații BNS "
             android:parentActivityName="com.alinasoft.startuser.Views.DashboardActivity" />
         <activity
             android:name="com.alinasoft.startuser.Views.CRUDActivity"
+            android:exported="true"
             android:theme="@style/CRUDTheme"
             android:label="Adaugă"
             android:parentActivityName="com.alinasoft.startuser.Views.DashboardActivity" />
         <activity
             android:name="com.alinasoft.startuser.Views.DetailActivity"
+            android:exported="true"
             android:label="Despre angajat "
             android:parentActivityName="com.alinasoft.startuser.Views.DashboardActivity" />
 
@@ -41,6 +45,7 @@
 
         <activity
         android:name="com.alinasoft.startuser.Views.AboutUsActivity"
+            android:exported="true"
         android:label="About Us "
         android:parentActivityName="com.alinasoft.startuser.Views.DashboardActivity"
         android:theme="@style/AppTheme.NoActionBar"/>
@@ -48,18 +53,21 @@
 
         <activity
             android:name="com.alinasoft.startuser.Views.help"
+            android:exported="true"
             android:label="About Us "
             android:parentActivityName="com.alinasoft.startuser.Views.DashboardActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
 
         <activity
             android:name="com.alinasoft.startuser.Views.helpen"
+            android:exported="true"
             android:label="About Us "
             android:parentActivityName="com.alinasoft.startuser.Views.DashboardActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
 
         <activity
             android:name="com.alinasoft.startuser.Views.helpru"
+            android:exported="true"
             android:label="About Us "
             android:parentActivityName="com.alinasoft.startuser.Views.DashboardActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
