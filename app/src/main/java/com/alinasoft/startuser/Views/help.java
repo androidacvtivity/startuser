@@ -13,11 +13,8 @@ import com.alinasoft.startuser.Retrofit.Scientist;
 
 public class help extends BaseActivity {
 
-    private final Scientist receivedScientist;
+    private  Scientist receivedScientist;
 
-    public help(Scientist receivedScientist) {
-        this.receivedScientist = receivedScientist;
-    }
 
 
     @Override
@@ -71,6 +68,15 @@ public class help extends BaseActivity {
 
         }
 
+        else
+            if (id==R.id.enlang)
+            {
+
+                Utils.sendScientistToActivity(this, receivedScientist, helpen.class);
+                finish();
+                return true;
+            }
+
 
 
 //        switch (item.getItemId()) {
@@ -96,5 +102,9 @@ public class help extends BaseActivity {
 
         return super.onOptionsItemSelected(item);
 
+    }
+
+    public void setReceivedScientist(Scientist receivedScientist) {
+        this.receivedScientist = receivedScientist;
     }
 }
