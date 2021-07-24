@@ -32,11 +32,10 @@ import com.alinasoft.startuser.Views.DetailActivity;
  * 4. Listen to click events of recyclerview item and pass the clicked item to recyclerview
  */
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
-    private Context c;
-    private final TypedValue mTypedValue = new TypedValue();
-    private int mBackground;
-    private int[] mMaterialColors;
-    private List<Scientist> scientists;
+    private final Context c;
+    private final int mBackground;
+    private final int[] mMaterialColors;
+    private final List<Scientist> scientists;
     public String searchString = "";
 
     /**
@@ -44,12 +43,26 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
      * 1. Hold all the widgets which will be recycled and reference them.
      * 2. Implement click event.
      */
-    public class ViewHolder extends RecyclerView.ViewHolder implements
+    public static class ViewHolder extends RecyclerView.ViewHolder implements
      View.OnClickListener {
-        private TextView nameTxt, starTxt, galaxyTxt, departTxt, sectiaTxt, serviciuTxt, phoneTxt, descriptionTxt,
-        formnameTxt, phonemobileTxt,emailTxt, statutTxt, created_dateTxt, remove_dateTxt, date_updatedTxt, recoverydataTxt;
+        private final TextView nameTxt;
+        private final TextView starTxt;
+        private final TextView galaxyTxt;
+        private final TextView departTxt;
+        private final TextView sectiaTxt;
+        private final TextView serviciuTxt;
+        private final TextView phoneTxt;
+        private final TextView descriptionTxt;
+        private final TextView formnameTxt;
+        private final TextView phonemobileTxt;
+        private final TextView emailTxt;
+        private final TextView statutTxt;
+        private final TextView created_dateTxt;
+        private final TextView remove_dateTxt;
+        private final TextView date_updatedTxt;
+        private final TextView recoverydataTxt;
 
-        private MaterialLetterIcon mIcon;
+        private final MaterialLetterIcon mIcon;
         private ItemClickListener itemClickListener;
 
         /**
@@ -95,6 +108,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     public MyAdapter(Context mContext, ArrayList<Scientist> scientists) {
         this.c = mContext;
         this.scientists = scientists;
+        TypedValue mTypedValue = new TypedValue();
         c.getTheme().resolveAttribute(R.attr.selectableItemBackground, mTypedValue, true);
         mMaterialColors = c.getResources().getIntArray(R.array.colors);
         mBackground = mTypedValue.resourceId;
@@ -108,8 +122,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(c).inflate(R.layout.model, parent, false);
         view.setBackgroundResource(mBackground);
-        ViewHolder vh = new ViewHolder(view);
-        return vh;
+        return new ViewHolder(view);
     }
     /**
      * Our onBindViewHolder method
