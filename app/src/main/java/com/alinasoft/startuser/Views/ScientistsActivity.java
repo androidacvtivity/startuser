@@ -1,6 +1,7 @@
 package com.alinasoft.startuser.Views;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -228,11 +229,21 @@ public class ScientistsActivity extends AppCompatActivity
         super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
     }
 
+//    @Override
+//    public void onBackPressed() {
+//        super.onBackPressed();
+//        this.finish();
+//    }
+
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        this.finish();
+        Intent intent;
+        intent = new Intent(this, DashboardActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        finish();
+        startActivity(intent);
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

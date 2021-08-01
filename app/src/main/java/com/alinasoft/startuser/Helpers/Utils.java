@@ -144,15 +144,27 @@ public class Utils {
         }
     }
     /**
-     * This utility method will allow us open any activity.
+     * This utility method will allow us open any activity. Version 1
      * @return
      */
-    public static DialogInterface.OnClickListener openActivity(Context c, Class clazz){
+//    public static DialogInterface.OnClickListener openActivity(Context c, Class clazz){
+//        Intent intent = new Intent(c, clazz);
+//        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//        c.startActivity(intent);
+//        return null;
+//    }
+
+
+    /**
+     * This utility method will allow us open any activity. Version 2
+     */
+    public static void openActivity(Context c,Class <?> clazz){
         Intent intent = new Intent(c, clazz);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+      //  intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK |Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
         c.startActivity(intent);
-        return null;
     }
+
 
 
 //    public static AlertDialog showDialog  (final AppCompatActivity activity, String title,
