@@ -59,29 +59,65 @@ public class helpru extends BaseActivity{
     @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.rolang:
-                Utils.sendScientistToActivity(this,receivedScientist,help.class);
-                finish();
-                return true;
-
-            case R.id.enlang:
-                Utils.sendScientistToActivity(this,receivedScientist,helpen.class);
-                finish();
-                return true;
 
 
-            case R.id.rulang:
-                Utils.sendScientistToActivity(this,receivedScientist,helpru.class);
-                finish();
-                return true;
+        int id = item.getItemId();
+
+        if (id==R.id.rolang){
+            Utils.sendScientistToActivity(this, receivedScientist, help.class);
+            finish();
+            return true;
+        }
+
+        else
+        if (id==R.id.enlang)
+        {
+
+            Utils.sendScientistToActivity(this, receivedScientist, helpen.class);
+            finish();
+            return true;
+        }
+
+        else
+
+
+        if (id==R.id.rulang)
+        {
+
+            Utils.sendScientistToActivity(this, receivedScientist, helpru.class);
+            finish();
+            return true;
+        }
+
+//        switch (item.getItemId()) {
+//            case R.id.rolang:
+//                Utils.sendScientistToActivity(this,receivedScientist,help.class);
+//                finish();
+//                return true;
+//
+//            case R.id.enlang:
+//                Utils.sendScientistToActivity(this,receivedScientist,helpen.class);
+//                finish();
+//                return true;
+//
+//
+//            case R.id.rulang:
+//                Utils.sendScientistToActivity(this,receivedScientist,helpru.class);
+//                finish();
+//
+//                return true;
+
+
+
+
+
 
 //            case android.R.id.home:
 //
 //                Utils.sendScientistToActivity(this,receivedScientist,ScientistsActivity.class);
 //                finish();
 //                return true;
-        }
+
         return super.onOptionsItemSelected(item);
     }
 }
