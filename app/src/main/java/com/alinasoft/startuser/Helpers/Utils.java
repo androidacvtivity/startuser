@@ -2,7 +2,6 @@ package com.alinasoft.startuser.Helpers;
 
 import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.view.View;
 import android.widget.EditText;
@@ -19,17 +18,11 @@ import com.alinasoft.startuser.Views.help;
 import com.alinasoft.startuser.Views.helpen;
 import com.alinasoft.startuser.Views.helpru;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-
-//import com.yarolegovich.lovelydialog.LovelyChoiceDialog;
-//import com.yarolegovich.lovelydialog.LovelyStandardDialog;
 
 /**
  * A Utility class. Contains reusable utility methods we will use throughout our project.This
@@ -54,8 +47,10 @@ public class Utils {
     //private  static  final String base_url = "http://10.0.3.2/PHP/scientists/";
 
    // private  static  final String base_url =   "http://172.20.1.154/PHP/bns/";
+
+
     private static Retrofit retrofit = null;
-    public static final String DATE_FORMAT = "yyyy-MM-dd";
+ //   public static final String DATE_FORMAT = "yyyy-MM-dd";
     /**
      * This method will return us our Retrofit instance which we can use to initiate HTTP calls.
      */
@@ -131,18 +126,18 @@ public class Utils {
         return true;
 
     }
-    /**
-     * This utility method will allow us clear arbitrary number of edittexts
-     */
-    public static void clearEditTexts(EditText... editTexts){
-        for (EditText editText:editTexts) {
-            editText.setText("");
-        }
-    }
-    /**
-     * This utility method will allow us open any activity. Version 1
-     * @return
-     */
+
+    //This utility method will allow us clear arbitrary number of edittexts
+
+   // public static void clearEditTexts(EditText... editTexts){
+     //   for (EditText editText:editTexts) {
+     //       editText.setText("");
+    //    }
+   // }
+    //
+    //This utility method will allow us open any activity. Version 1
+     //@return
+     //
 //    public static DialogInterface.OnClickListener openActivity(Context c, Class clazz){
 //        Intent intent = new Intent(c, clazz);
 //        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -163,39 +158,20 @@ public class Utils {
 
 
 
-//    public static AlertDialog showDialog  (final AppCompatActivity activity, String title,
-//                                           String message){
-//
-//
-//
-//    }
-
-
-
     /**
      * This method will allow us show an Info dialog anywhere in our app.
      */
     public static void showInfoDialog(final AppCompatActivity activity, String title,
                                       String message) {
 
-        AlertDialog dialog = new AlertDialog.Builder(activity)
+        new AlertDialog.Builder(activity)
 
-        .setTitle(title)
+                .setTitle(title)
                 .setIcon(R.drawable.m_info)
                 .setMessage(message)
-                .setPositiveButton("Relax",null)
-                .setNeutralButton("Dashboard", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity,DashboardActivity.class);
-                    }
-                })
-                .setNegativeButton("The List", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity,ScientistsActivity.class);
-                    }
-                })
+                .setPositiveButton("Relax", null)
+                .setNeutralButton("Dashboard", (dialog, which) -> openActivity(activity, DashboardActivity.class))
+                .setNegativeButton("The List", (dialog, which) -> openActivity(activity, ScientistsActivity.class))
 
                 .show();
     }
@@ -254,31 +230,16 @@ public class Utils {
     public static void showInfoDialog_help_ro(final AppCompatActivity activity, String title,
                                       String message) {
 
-        AlertDialog dialog = new AlertDialog.Builder(activity)
+        new AlertDialog.Builder(activity)
 
                 .setTitle(title)
                 .setIcon(R.drawable.m_info)
                 .setMessage(message)
-                .setPositiveButton("en", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity, helpen.class);
-                    }
-                })
+                .setPositiveButton("en", (dialog, which) -> openActivity(activity, helpen.class))
 
 
-                .setNeutralButton("La inceput", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity,DashboardActivity.class);
-                    }
-                })
-                .setNegativeButton("ru", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity,helpru.class);
-                    }
-                })
+                .setNeutralButton("La inceput", (dialog, which) -> openActivity(activity, DashboardActivity.class))
+                .setNegativeButton("ru", (dialog, which) -> openActivity(activity, helpru.class))
 
                 .show();
     }
@@ -333,31 +294,16 @@ public class Utils {
     public static void showInfoDialog_help_en(final AppCompatActivity activity, String title,
                                               String message) {
 
-        AlertDialog dialog = new AlertDialog.Builder(activity)
+        new AlertDialog.Builder(activity)
 
                 .setTitle(title)
                 .setIcon(R.drawable.m_info)
                 .setMessage(message)
-                .setPositiveButton("ro", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity, help.class);
-                    }
-                })
+                .setPositiveButton("ro", (dialog, which) -> openActivity(activity, help.class))
 
 
-                .setNeutralButton("La inceput", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity,DashboardActivity.class);
-                    }
-                })
-                .setNegativeButton("ru", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity,helpru.class);
-                    }
-                })
+                .setNeutralButton("Dashboard", (dialog, which) -> openActivity(activity, DashboardActivity.class))
+                .setNegativeButton("ru", (dialog, which) -> openActivity(activity, helpru.class))
 
                 .show();
     }
@@ -395,31 +341,16 @@ public class Utils {
     public static void showInfoDialog_help_ru(final AppCompatActivity activity, String title,
                                               String message) {
 
-        AlertDialog dialog = new AlertDialog.Builder(activity)
+        new AlertDialog.Builder(activity)
 
                 .setTitle(title)
                 .setIcon(R.drawable.m_info)
                 .setMessage(message)
-                .setPositiveButton("ro", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity, help.class);
-                    }
-                })
+                .setPositiveButton("ro", (dialog, which) -> openActivity(activity, help.class))
 
 
-                .setNeutralButton("В начало", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity,DashboardActivity.class);
-                    }
-                })
-                .setNegativeButton("en", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity,helpen.class);
-                    }
-                })
+                .setNeutralButton("В начало", (dialog, which) -> openActivity(activity, DashboardActivity.class))
+                .setNegativeButton("en", (dialog, which) -> openActivity(activity, helpen.class))
 
                 .show();
     }
@@ -441,10 +372,11 @@ public class Utils {
 
 
 
-    /**
-     * This method will allow us show a single select dialog where we can select and return a
-     * star to an edittext.
-     */
+
+     //This method will allow us show a single select dialog where we can select and return a
+     // star to an edittext.
+
+
 //     public static void selectStar(Context c,final EditText starTxt){
 ////        String[] stars ={"Rigel","Aldebaran","Arcturus","Betelgeuse","Antares","Deneb",
 ////        "Wezen","VY Canis Majoris","Sirius","Alpha Pegasi","Vega","Saiph","Polaris",
@@ -480,19 +412,24 @@ public class Utils {
 //
 //     }
 
-    /**
-     * This method will allow us convert a string into a java.util.Date object and
-     *  return it.
-     */
-    public static Date giveMeDate(String stringDate){
-        try {
-            SimpleDateFormat sdf=new SimpleDateFormat(DATE_FORMAT);
-            return sdf.parse(stringDate);
-        }catch (ParseException e){
-            e.printStackTrace();
-            return null;
-        }
-    }
+
+    //This method will allow us convert a string into a java.util.Date object and
+     // return it.
+
+    //public static Date giveMeDate(String stringDate){
+      //  try {
+        //    SimpleDateFormat sdf=new SimpleDateFormat(DATE_FORMAT);
+          //  return sdf.parse(stringDate);
+        //}catch (ParseException e){
+          //  e.printStackTrace();
+           // return null;
+       // }
+   // }
+
+
+
+
+
     /**
      * This method will allow us show a progressbar
      */
