@@ -184,18 +184,8 @@ public class Utils {
                 .setIcon(R.drawable.m_info)
                 .setMessage(message)
                 .setPositiveButton("Relax", null)
-                .setNeutralButton("Dashboard", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity, DashboardActivity.class);
-                    }
-                })
-                .setNegativeButton("The List", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity, ScientistsActivity.class);
-                    }
-                })
+                .setNeutralButton("Dashboard", (dialog, which) -> openActivity(activity, DashboardActivity.class))
+                .setNegativeButton("The List", (dialog, which) -> openActivity(activity, ScientistsActivity.class))
 
                 .show();
     }
