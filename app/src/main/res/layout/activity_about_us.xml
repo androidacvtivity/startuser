@@ -342,7 +342,7 @@
                         android:layout_marginLeft="10dp"
                         android:layout_toRightOf="@+id/afteni"
 
-                        android:text="Afteni Tatiana" />
+                        android:text="@string/afteni_tatiana" />
                 </RelativeLayout>
 
 

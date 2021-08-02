@@ -1,8 +1,8 @@
 package com.alinasoft.startuser.Retrofit;
 
-/**
- * Let's define our imports
- */
+
+//Let's define our imports
+
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;

@@ -1,5 +1,7 @@
 package com.alinasoft.startuser.Retrofit;
 
+import androidx.annotation.NonNull;
+
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
@@ -306,6 +308,7 @@ public class Scientist implements Serializable {
 //        this.died = died;
 //    }
 
+    @NonNull
     @Override
     public String toString() {
         return getName();

@@ -1,5 +1,6 @@
 package com.alinasoft.startuser.Views;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +12,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.alinasoft.startuser.Helpers.Utils;
@@ -35,7 +37,7 @@ public class CRUDActivity extends AppCompatActivity {
     private ProgressBar mProgressBar;
     private String id = null;
     private Scientist receivedScientist;
-    private Context c = CRUDActivity.this;
+    private final Context c = CRUDActivity.this;
 
     /**
      * Let's reference our widgets
@@ -115,9 +117,10 @@ public class CRUDActivity extends AppCompatActivity {
 
             insertData.enqueue(new Callback<ResponseModel>() {
                 @Override
-                public void onResponse(Call<ResponseModel> call,
-                 Response<ResponseModel> response) {
+                public void onResponse(@NonNull Call<ResponseModel> call,
+                                       @NonNull Response<ResponseModel> response) {
 
+                    assert response.body() != null;
                     Log.d("RETROFIT", "response : " + response.body().toString());
                     String myResponseCode = response.body().getCode();
 
@@ -136,7 +139,7 @@ public class CRUDActivity extends AppCompatActivity {
                     Utils.hideProgressBar(mProgressBar);
                 }
                 @Override
-                public void onFailure(Call<ResponseModel> call, Throwable t) {
+                public void onFailure(@NonNull Call<ResponseModel> call, @NonNull Throwable t) {
                     Log.d("RETROFIT", "ERROR: " + t.getMessage());
                     Utils.hideProgressBar(mProgressBar);
                     Utils.showInfoDialog(CRUDActivity.this, "FAILURE",
@@ -191,7 +194,8 @@ public class CRUDActivity extends AppCompatActivity {
              //dob, died);
             update.enqueue(new Callback<ResponseModel>() {
                 @Override
-                public void onResponse(Call<ResponseModel> call, Response<ResponseModel> response) {
+                public void onResponse(@NonNull Call<ResponseModel> call, @NonNull Response<ResponseModel> response) {
+                    assert response.body() != null;
                     Log.d("RETROFIT", "Response: " + response.body().getResult());
 
                     Utils.hideProgressBar(mProgressBar);
@@ -214,7 +218,7 @@ public class CRUDActivity extends AppCompatActivity {
                     }
                 }
                 @Override
-                public void onFailure(Call<ResponseModel> call, Throwable t) {
+                public void onFailure(@NonNull Call<ResponseModel> call, @NonNull Throwable t) {
                     Log.d("RETROFIT", "ERROR THROWN DURING UPDATE: " + t.getMessage());
                     Utils.hideProgressBar(mProgressBar);
                     Utils.showInfoDialog(CRUDActivity.this, "FAILURE THROWN", "ERROR DURING UPDATE.Here"+
@@ -233,9 +237,10 @@ public class CRUDActivity extends AppCompatActivity {
         Utils.showProgressBar(mProgressBar);
         del.enqueue(new Callback<ResponseModel>() {
             @Override
-            public void onResponse(Call<ResponseModel> call, Response<ResponseModel> response) {
+            public void onResponse(@NonNull Call<ResponseModel> call, @NonNull Response<ResponseModel> response) {
                 Log.d("RETROFIT", "DELETE RESPONSE: " + response.body());
                 Utils.hideProgressBar(mProgressBar);
+                assert response.body() != null;
                 String myResponseCode = response.body().getCode();
 
                 if (myResponseCode.equalsIgnoreCase("1")) {
@@ -253,7 +258,7 @@ public class CRUDActivity extends AppCompatActivity {
                 }
             }
             @Override
-            public void onFailure(Call<ResponseModel> call, Throwable t) {
+            public void onFailure(@NonNull Call<ResponseModel> call, @NonNull Throwable t) {
                 Utils.hideProgressBar(mProgressBar);
                 Log.d("RETROFIT", "ERROR: " + t.getMessage());
                 Utils.showInfoDialog(CRUDActivity.this, "FAILURE THROWN", "ERROR during DELETE attempt. Message: " + t.getMessage());
@@ -272,9 +277,10 @@ public class CRUDActivity extends AppCompatActivity {
         Utils.showProgressBar(mProgressBar);
         del.enqueue(new Callback<ResponseModel>() {
             @Override
-            public void onResponse(Call<ResponseModel> call, Response<ResponseModel> response) {
+            public void onResponse(@NonNull Call<ResponseModel> call, @NonNull Response<ResponseModel> response) {
                 Log.d("RETROFIT", "DELETE RESPONSE: " + response.body());
                 Utils.hideProgressBar(mProgressBar);
+                assert response.body() != null;
                 String myResponseCode = response.body().getCode();
 
                 if (myResponseCode.equalsIgnoreCase("1")) {
@@ -292,7 +298,7 @@ public class CRUDActivity extends AppCompatActivity {
                 }
             }
             @Override
-            public void onFailure(Call<ResponseModel> call, Throwable t) {
+            public void onFailure(@NonNull Call<ResponseModel> call, @NonNull Throwable t) {
                 Utils.hideProgressBar(mProgressBar);
                 Log.d("RETROFIT", "ERROR: " + t.getMessage());
                 Utils.showInfoDialog(CRUDActivity.this, "FAILURE THROWN", "ERROR during DELETE attempt. Message: " + t.getMessage());
@@ -311,9 +317,10 @@ public class CRUDActivity extends AppCompatActivity {
         Utils.showProgressBar(mProgressBar);
         del.enqueue(new Callback<ResponseModel>() {
             @Override
-            public void onResponse(Call<ResponseModel> call, Response<ResponseModel> response) {
+            public void onResponse(@NonNull Call<ResponseModel> call, @NonNull Response<ResponseModel> response) {
                 Log.d("RETROFIT", "DELETE RESPONSE: " + response.body());
                 Utils.hideProgressBar(mProgressBar);
+                assert response.body() != null;
                 String myResponseCode = response.body().getCode();
 
                 if (myResponseCode.equalsIgnoreCase("1")) {
@@ -331,7 +338,7 @@ public class CRUDActivity extends AppCompatActivity {
                 }
             }
             @Override
-            public void onFailure(Call<ResponseModel> call, Throwable t) {
+            public void onFailure(@NonNull Call<ResponseModel> call, @NonNull Throwable t) {
                 Utils.hideProgressBar(mProgressBar);
                 Log.d("RETROFIT", "ERROR: " + t.getMessage());
                 Utils.showInfoDialog(CRUDActivity.this, "FAILURE THROWN", "ERROR during DELETE attempt. Message: " + t.getMessage());
@@ -340,9 +347,9 @@ public class CRUDActivity extends AppCompatActivity {
     }
 
 
-    /**
-     * Show selected star in our edittext
-     */
+
+   // Show selected star in our edittext
+
 //    private void showSelectedStarInEditText() {
 //        starTxt.setOnClickListener(v -> Utils.selectStar(c, starTxt));
 //    }
@@ -356,6 +363,7 @@ public class CRUDActivity extends AppCompatActivity {
     /**
      * Let's inflate our menu based on the role this page has been opened for.
      */
+    @SuppressLint("SetTextI18n")
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         if (receivedScientist == null) {
@@ -526,9 +534,9 @@ public class CRUDActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        Object o = Utils.receiveScientist(getIntent(), c);
+        Scientist o = Utils.receiveScientist(getIntent(), c);
         if (o != null) {
-            receivedScientist = (Scientist) o;
+            receivedScientist = o;
             id = receivedScientist.getId();
             nameTxt.setText(receivedScientist.getName());
             descriptionTxt.setText(receivedScientist.getDescription());
