@@ -372,51 +372,76 @@ public class CRUDActivity extends AppCompatActivity {
      */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.insertMenuItem:
-                insertData();
-                return true;
-            case R.id.editMenuItem:
+
+        int id = item.getItemId();
+
+        if (id==R.id.insertMenuItem){
+            insertData();
+            return true;
+
+        }
+
+        else
+            if (id==R.id.editMenuItem){
+
                 if (receivedScientist != null) {
                     updateData();
                 } else {
                     Utils.show(this, "EDIT ONLY WORKS IN EDITING MODE");
                 }
                 return true;
+        }
 
-            case R.id.deleteMenuItem:
+            else
+            if (id==R.id.deleteMenuItem){
+
                 if (receivedScientist != null) {
                     deleteData();
                 } else {
                     Utils.show(this, "DELETE ONLY WORKS IN EDITING MODE");
                 }
                 return true;
+            }
 
-            case R.id.starItem:
+
+
+            else
+            if (id==R.id.starItem){
+
                 if (receivedScientist != null) {
                     deleteData1();
                 } else {
                     Utils.show(this, "DELETE ONLY WORKS IN EDITING MODE");
                 }
                 return true;
+            }
 
 
-            case R.id.deletetotalItem:
+
+
+            else
+            if (id==R.id.deletetotalItem){
+
                 if (receivedScientist != null) {
                     deleteTotalData();
                 } else {
                     Utils.show(this, "DELETE ONLY WORKS IN EDITING MODE");
                 }
                 return true;
+            }
 
+            else
+            if (id==R.id.viewAllMenuItem){
 
-            case R.id.viewAllMenuItem:
                 Utils.openActivity(this, ScientistsActivity.class);
                 finish();
                 return true;
-            case android.R.id.home:
-             //   NavUtils.navigateUpFromSameTask(this);
-                //Utils.sendScientistToActivity(this,receivedScientist,ScientistsActivity.class);
+
+            }
+
+
+            else
+            if (id == android.R.id.home){
 
                     Intent intent;
                     intent = new Intent(this,ScientistsActivity.class);
@@ -425,10 +450,65 @@ public class CRUDActivity extends AppCompatActivity {
                     startActivity(intent);
                     return true;
 
-//                Utils.showInfoDialog(this, "Atenție", "Sunteți sigutri că vreți sa esiți?");
+            }
+
+//        switch (item.getItemId()) {
+//            case R.id.insertMenuItem:
+//                insertData();
+//                return true;
+//            case R.id.editMenuItem:
+//                if (receivedScientist != null) {
+//                    updateData();
+//                } else {
+//                    Utils.show(this, "EDIT ONLY WORKS IN EDITING MODE");
+//                }
+//                return true;
+//
+//            case R.id.deleteMenuItem:
+//                if (receivedScientist != null) {
+//                    deleteData();
+//                } else {
+//                    Utils.show(this, "DELETE ONLY WORKS IN EDITING MODE");
+//                }
+//                return true;
+//
+//            case R.id.starItem:
+//                if (receivedScientist != null) {
+//                    deleteData1();
+//                } else {
+//                    Utils.show(this, "DELETE ONLY WORKS IN EDITING MODE");
+//                }
+//                return true;
+//
+//
+//            case R.id.deletetotalItem:
+//                if (receivedScientist != null) {
+//                    deleteTotalData();
+//                } else {
+//                    Utils.show(this, "DELETE ONLY WORKS IN EDITING MODE");
+//                }
+//                return true;
+//
+//
+//            case R.id.viewAllMenuItem:
+//                Utils.openActivity(this, ScientistsActivity.class);
 //                finish();
 //                return true;
-        }
+//            case android.R.id.home:
+//             //   NavUtils.navigateUpFromSameTask(this);
+//                //Utils.sendScientistToActivity(this,receivedScientist,ScientistsActivity.class);
+//
+//                    Intent intent;
+//                    intent = new Intent(this,ScientistsActivity.class);
+//                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//                    finish();
+//                    startActivity(intent);
+//                    return true;
+//
+////                Utils.showInfoDialog(this, "Atenție", "Sunteți sigutri că vreți sa esiți?");
+////                finish();
+////                return true;
+//        }
         return super.onOptionsItemSelected(item);
     }
 
