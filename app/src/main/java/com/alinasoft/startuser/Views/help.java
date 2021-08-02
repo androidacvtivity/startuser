@@ -77,7 +77,16 @@ public class help extends BaseActivity {
                 return true;
             }
 
+            else
 
+
+            if (id==R.id.rulang)
+            {
+
+                Utils.sendScientistToActivity(this, receivedScientist, helpru.class);
+                finish();
+                return true;
+            }
 
 //        switch (item.getItemId()) {
 //            case R.id.rolang:
