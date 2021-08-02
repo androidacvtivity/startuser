@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ivbaranov:materiallettericon:0.2.3@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f33972b85a25093451c5d5c6cbeb24a4/jetified-materiallettericon-0.2.3/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f33972b85a25093451c5d5c6cbeb24a4/jetified-materiallettericon-0.2.3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f33972b85a25093451c5d5c6cbeb24a4/jetified-materiallettericon-0.2.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/37e9cbd45897f74d8eabf752b23c0359/transformed/jetified-materiallettericon-0.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/37e9cbd45897f74d8eabf752b23c0359/transformed/jetified-materiallettericon-0.2.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/37e9cbd45897f74d8eabf752b23c0359/transformed/jetified-materiallettericon-0.2.3/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ivbaranov/materiallettericon/0.2.3/cdf6148c8f311e83f0ae121c26add9f2181e8d8b/materiallettericon-0.2.3-javadoc.jar!/" />
