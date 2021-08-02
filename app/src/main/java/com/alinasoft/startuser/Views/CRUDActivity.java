@@ -1,10 +1,8 @@
 package com.alinasoft.startuser.Views;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.NavUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -13,11 +11,14 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.alinasoft.startuser.Helpers.Utils;
 import com.alinasoft.startuser.R;
 import com.alinasoft.startuser.Retrofit.ResponseModel;
 import com.alinasoft.startuser.Retrofit.RestApi;
 import com.alinasoft.startuser.Retrofit.Scientist;
+
 import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -416,9 +417,17 @@ public class CRUDActivity extends AppCompatActivity {
             case android.R.id.home:
              //   NavUtils.navigateUpFromSameTask(this);
                 //Utils.sendScientistToActivity(this,receivedScientist,ScientistsActivity.class);
-                Utils.showInfoDialog(this, "Atenție", "Sunteți sigutri că vreți sa esiți?");
-                finish();
-                return true;
+
+                    Intent intent;
+                    intent = new Intent(this,ScientistsActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    finish();
+                    startActivity(intent);
+                    return true;
+
+//                Utils.showInfoDialog(this, "Atenție", "Sunteți sigutri că vreți sa esiți?");
+//                finish();
+//                return true;
         }
         return super.onOptionsItemSelected(item);
     }

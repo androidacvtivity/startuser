@@ -4,35 +4,32 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.view.Gravity;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.alinasoft.startuser.R;
+import com.alinasoft.startuser.Retrofit.Scientist;
+import com.alinasoft.startuser.Views.DashboardActivity;
 import com.alinasoft.startuser.Views.ScientistsActivity;
-//import com.yarolegovich.lovelydialog.LovelyChoiceDialog;
-//import com.yarolegovich.lovelydialog.LovelyStandardDialog;
+import com.alinasoft.startuser.Views.help;
+import com.alinasoft.startuser.Views.helpen;
+import com.alinasoft.startuser.Views.helpru;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-import com.alinasoft.startuser.R;
-import com.alinasoft.startuser.Retrofit.Scientist;
-import com.alinasoft.startuser.Views.DashboardActivity;
-
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-import com.alinasoft.startuser.Views.help;
-import com.alinasoft.startuser.Views.helpen;
-import com.alinasoft.startuser.Views.helpru;
+//import com.yarolegovich.lovelydialog.LovelyChoiceDialog;
+//import com.yarolegovich.lovelydialog.LovelyStandardDialog;
 
 /**
  * A Utility class. Contains reusable utility methods we will use throughout our project.This
@@ -105,7 +102,6 @@ public class Utils {
         EditText nameTxt = editTexts[0];
         EditText descriptionTxt = editTexts[1];
         EditText galaxyTxt = editTexts[2];
-        EditText phoneTxt = editTexts[6];
         EditText emailTxt = editTexts[8];
 
         if(nameTxt.getText() == null || nameTxt.getText().toString().isEmpty()){
@@ -514,7 +510,7 @@ public class Utils {
      *  activity
      */
     public static void sendScientistToActivity(Context c, Scientist scientist,
-     Class clazz){
+     Class  <?> clazz){
         Intent i=new Intent(c,clazz);
         i.putExtra("SCIENTIST_KEY",scientist);
         c.startActivity(i);
@@ -525,8 +521,7 @@ public class Utils {
      */
     public  static Scientist receiveScientist(Intent intent,Context c){
         try {
-            Scientist scientist= (Scientist) intent.getSerializableExtra("SCIENTIST_KEY");
-            return scientist;
+            return (Scientist) intent.getSerializableExtra("SCIENTIST_KEY");
         }catch (Exception e){
             e.printStackTrace();
             show(c,"RECEIVING-SCIENTIST ERROR: "+e.getMessage());
