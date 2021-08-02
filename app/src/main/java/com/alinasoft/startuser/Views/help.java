@@ -113,7 +113,8 @@ public class help extends BaseActivity {
 
     }
 
-    public void setReceivedScientist(Scientist receivedScientist) {
-        this.receivedScientist = receivedScientist;
-    }
+//    public void setReceivedScientist(Scientist receivedScientist) {
+//        this.receivedScientist = receivedScientist;
+//    }
+
 }
