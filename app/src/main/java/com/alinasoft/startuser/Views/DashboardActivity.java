@@ -1,15 +1,14 @@
 package com.alinasoft.startuser.Views;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.alinasoft.startuser.Helpers.Utils;
 import com.alinasoft.startuser.R;
+
 import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
 public class DashboardActivity extends AppCompatActivity {
@@ -30,48 +29,21 @@ public class DashboardActivity extends AppCompatActivity {
         closeCard = findViewById(R.id.closeCard);
         help = findViewById(R.id.help);
 
-		viewScientistsCard.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-				Utils.openActivity(DashboardActivity.this,ScientistsActivity.class);
+		viewScientistsCard.setOnClickListener(v -> Utils.openActivity(DashboardActivity.this,ScientistsActivity.class));
+        addScientistCard.setOnClickListener(v -> Utils.openActivity(DashboardActivity.this,CRUDActivity.class));
 
-            }
-        });
-        addScientistCard.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-				Utils.openActivity(DashboardActivity.this,CRUDActivity.class);
-
-            }
-        });
-
-        help.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Utils.openActivity(DashboardActivity.this,help.class);
-
-            }
-        });
+        help.setOnClickListener(v -> Utils.openActivity(DashboardActivity.this,help.class));
 
 
 
-        third.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        third.setOnClickListener(v -> {
 
-                Utils.openActivity(DashboardActivity.this,AboutUsActivity.class);
+            Utils.openActivity(DashboardActivity.this,AboutUsActivity.class);
 //                Utils.showInfoDialog(DashboardActivity.this, "YEEES",
 //                "Hey You can Display another page when this is clicked");
 
-            }
         });
-        closeCard.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-				finish();
-
-            }
-        });
+        closeCard.setOnClickListener(v -> finish());
     }
     /**
      * Let's override the attachBaseContext() method
