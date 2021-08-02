@@ -131,18 +131,18 @@ public class Utils {
         return true;
 
     }
-    /**
-     * This utility method will allow us clear arbitrary number of edittexts
-     */
-    public static void clearEditTexts(EditText... editTexts){
-        for (EditText editText:editTexts) {
-            editText.setText("");
-        }
-    }
-    /**
-     * This utility method will allow us open any activity. Version 1
-     * @return
-     */
+
+    //This utility method will allow us clear arbitrary number of edittexts
+
+   // public static void clearEditTexts(EditText... editTexts){
+     //   for (EditText editText:editTexts) {
+     //       editText.setText("");
+    //    }
+   // }
+    //
+    //This utility method will allow us open any activity. Version 1
+     //@return
+     //
 //    public static DialogInterface.OnClickListener openActivity(Context c, Class clazz){
 //        Intent intent = new Intent(c, clazz);
 //        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -178,22 +178,22 @@ public class Utils {
     public static void showInfoDialog(final AppCompatActivity activity, String title,
                                       String message) {
 
-        AlertDialog dialog = new AlertDialog.Builder(activity)
+        new AlertDialog.Builder(activity)
 
-        .setTitle(title)
+                .setTitle(title)
                 .setIcon(R.drawable.m_info)
                 .setMessage(message)
-                .setPositiveButton("Relax",null)
+                .setPositiveButton("Relax", null)
                 .setNeutralButton("Dashboard", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity,DashboardActivity.class);
+                        openActivity(activity, DashboardActivity.class);
                     }
                 })
                 .setNegativeButton("The List", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        openActivity(activity,ScientistsActivity.class);
+                        openActivity(activity, ScientistsActivity.class);
                     }
                 })
 
