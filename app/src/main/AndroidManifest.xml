@@ -33,7 +33,7 @@
             android:name="com.alinasoft.startuser.Views.CRUDActivity"
             android:exported="true"
             android:theme="@style/CRUDTheme"
-            android:label="Adaugă"
+            android:label="Adauga"
             android:parentActivityName="com.alinasoft.startuser.Views.DashboardActivity" />
         <activity
             android:name="com.alinasoft.startuser.Views.DetailActivity"
