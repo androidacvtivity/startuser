@@ -56,8 +56,6 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
         remove_dateTV = findViewById(R.id.remove_dateTV);
         remove_dateTV = findViewById(R.id.recoverydataTV);
 
-//        dobTV= findViewById(R.id.dobTV);
-//        diedTV= findViewById(R.id.diedTV);
         FloatingActionButton editFAB = findViewById(R.id.editFAB);
 		editFAB.setOnClickListener(this);
         mCollapsingToolbarLayout=findViewById(R.id.mCollapsingToolbarLayout);
@@ -93,13 +91,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
              remove_dateTV.setText(receivedScientist.getRemove_date());
 
 
-
-//             dobTV.setText(receivedScientist.getDob());
-//             diedTV.setText(receivedScientist.getDied());
-
              mCollapsingToolbarLayout.setTitle(receivedScientist.getName());
-//             mCollapsingToolbarLayout.setExpandedTitleColor(getResources().
-//                                                                                  getColor(R.color.white));
 
              mCollapsingToolbarLayout.setExpandedTitleColor(ContextCompat.getColor(this, R.color.white));
 //
@@ -158,11 +150,6 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
     /**
      * Let's finish the current activity when back button is pressed
      */
-   // @Override
-//    public void onBackPressed() {
-//        super.onBackPressed();
-//        this.finish();
-//    }
 
     @Override
     public void onBackPressed() {

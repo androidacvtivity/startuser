@@ -41,12 +41,6 @@ public class Utils {
 
 
      private  static  final String base_url = "http://bancusoft.com/PHP/bns/";
-   // private  static  final String base_url = "http://192.168.0.102/PHP/bns/";
-
-  //  private  static  final String base_url = "http://192.168.0.100/PHP/bns/";
-    //private  static  final String base_url = "http://10.0.3.2/PHP/scientists/";
-
-   // private  static  final String base_url =   "http://172.20.1.154/PHP/bns/";
 
 
     private static Retrofit retrofit = null;
@@ -56,16 +50,7 @@ public class Utils {
      */
     public static Retrofit getClient(){
         if(retrofit == null){
-//            retrofit = new Retrofit.Builder()
-//                    .baseUrl(base_url)
-//                    .addConverterFactory(GsonConverterFactory.create())
-//                    .build();
 
-
-//            retrofit = new retrofit2.Retrofit.Builder()
-//                    .baseUrl(base_url)
-//                    .addConverterFactory(new NullOnEmptyConverterFactory())
-//                    .addConverterFactory(GsonConverterFactory.create()).build();
 
             OkHttpClient okHttpClient = new OkHttpClient.Builder()
                     .connectTimeout(3, TimeUnit.MINUTES)
@@ -112,12 +97,6 @@ public class Utils {
             return false;
         }
 
-//        if(phoneTxt.getText() == null || phoneTxt.getText().toString().isEmpty()){
-//            phoneTxt.setError("Telefonul este obligatorie Vă rog!");
-//            return false;
-//        }
-
-
 
         if(emailTxt.getText() == null || emailTxt.getText().toString().isEmpty()){
             emailTxt.setError("Email-ul  este obligatorie Vă rog!");
@@ -137,13 +116,6 @@ public class Utils {
     //
     //This utility method will allow us open any activity. Version 1
      //@return
-     //
-//    public static DialogInterface.OnClickListener openActivity(Context c, Class clazz){
-//        Intent intent = new Intent(c, clazz);
-//        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//        c.startActivity(intent);
-//        return null;
-//    }
 
 
     /**
@@ -177,54 +149,9 @@ public class Utils {
     }
 
 
-
-//    /**
-//     * This method will allow us show an Info dialog anywhere in our app.
-//     */
-//    public static void showInfoDialog(final AppCompatActivity activity, String title,
-//                                      String message) {
-//        new LovelyStandardDialog(activity, LovelyStandardDialog.ButtonLayout.HORIZONTAL)
-//                .setTopColorRes(R.color.indigo)
-//                .setButtonsColorRes(R.color.darkDeepOrange)
-//                .setIcon(R.drawable.m_info)
-//                .setTitle(title)
-//                .setMessage(message)
-//                .setPositiveButton("Relax", v -> {})
-//                .setNeutralButton("Dashboard", v -> openActivity(activity, DashboardActivity.class))
-//                .setNegativeButton("The List", v -> openActivity(activity, ScientistsActivity.class))
-//                .show();
-//    }
-
-
-
-
-
-
     /**
      * This method will allow us show an Info dialog anywhere in our app.
      */
-//    public static void showInfoDialog_help_ro(final AppCompatActivity activity, String title,
-//                                              String message) {
-//
-//        new LovelyStandardDialog(activity, LovelyStandardDialog.ButtonLayout.HORIZONTAL)
-//                .setTopColorRes(R.color.indigo)
-//                .setButtonsColorRes(R.color.darkDeepOrange)
-//                .setIcon(R.drawable.m_info)
-//
-//                .setTitle(title)
-//                .setMessage(message)
-//
-//
-//
-//                .setPositiveButton("en", v -> openActivity(activity, helpen.class))
-//                .setNeutralButton("La inceput", v -> openActivity(activity, DashboardActivity.class))
-//                .setNegativeButton("ru", v -> openActivity(activity, helpru.class))
-//
-//                .show();
-//    }
-//
-//
-
 
 
     public static void showInfoDialog_help_ro(final AppCompatActivity activity, String title,
@@ -245,52 +172,6 @@ public class Utils {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//    /**
-//     * This method will allow us show an Info dialog anywhere in our app.
-//     */
-//    public static void showInfoDialog_help_en(final AppCompatActivity activity, String title,
-//                                              String message) {
-//
-//        new LovelyStandardDialog(activity, LovelyStandardDialog.ButtonLayout.HORIZONTAL)
-//                .setTopColorRes(R.color.indigo)
-//                .setButtonsColorRes(R.color.darkDeepOrange)
-//                .setIcon(R.drawable.m_info)
-//                .setTitle(title)
-//                .setMessage(message)
-//
-//                .setPositiveButton("ro", v -> openActivity(activity, help.class))
-//                .setNeutralButton("Dashboard", v -> openActivity(activity, DashboardActivity.class))
-//                .setNegativeButton("ru", v -> openActivity(activity, helpru.class))
-//
-//                .show();
-//    }
-
-
-
-
-
-
     public static void showInfoDialog_help_en(final AppCompatActivity activity, String title,
                                               String message) {
 
@@ -307,35 +188,6 @@ public class Utils {
 
                 .show();
     }
-
-
-
-
-//    /**
-//     * This method will allow us show an Info dialog anywhere in our app.
-//     */
-//    public static void showInfoDialog_help_ru(final AppCompatActivity activity, String title,
-//                                              String message) {
-//
-//        new LovelyStandardDialog(activity, LovelyStandardDialog.ButtonLayout.HORIZONTAL)
-//                .setTopColorRes(R.color.indigo)
-//                .setButtonsColorRes(R.color.darkDeepOrange)
-//                .setIcon(R.drawable.m_info)
-//                .setTitle(title)
-//                .setMessage(message)
-//
-//                .setPositiveButton("ro", v -> openActivity(activity, help.class))
-//                .setNeutralButton("В начало", v -> openActivity(activity, DashboardActivity.class))
-//                .setNegativeButton("en", v -> openActivity(activity, helpen.class))
-//
-//
-//                .show();
-//    }
-
-
-
-
-
 
 
     public static void showInfoDialog_help_ru(final AppCompatActivity activity, String title,
@@ -415,19 +267,6 @@ public class Utils {
 
     //This method will allow us convert a string into a java.util.Date object and
      // return it.
-
-    //public static Date giveMeDate(String stringDate){
-      //  try {
-        //    SimpleDateFormat sdf=new SimpleDateFormat(DATE_FORMAT);
-          //  return sdf.parse(stringDate);
-        //}catch (ParseException e){
-          //  e.printStackTrace();
-           // return null;
-       // }
-   // }
-
-
-
 
 
     /**
