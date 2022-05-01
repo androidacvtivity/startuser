@@ -37,16 +37,12 @@ public class helpru extends BaseActivity{
 
     @Override
     public void onBackPressed() {
-//        super.onBackPressed();
-//        this.finish();
 
         Utils.showInfoDialog_help_ru(this, "Внимание.", "Вы уверены что хотите выйти? У нас есть перевод руководства о программе на румынском и на английском.");
     }
 
 
     public boolean onCreateOptionsMenu(Menu menu) {
-//        MenuInflater inflater = getMenuInflater();
-//        inflater.inflate(R.menu.help, menu);
 
         getMenuInflater().inflate(R.menu.help, menu);
         return true;
@@ -119,5 +115,9 @@ public class helpru extends BaseActivity{
 //                return true;
 
         return super.onOptionsItemSelected(item);
+    }
+    @SuppressWarnings("unused")
+    public void setReceivedScientist(Scientist receivedScientist) {
+        this.receivedScientist = receivedScientist;
     }
 }
