@@ -72,18 +72,18 @@ public class ScientistsActivity extends AppCompatActivity
      * without seaching. However all the arriving data is paginated at the server level.
      */
     private void retrieveAndFillRecyclerView(final String action, String queryString,
-     final String start, String limit) {
+                                             final String start) {
 
         mAdapter.searchString = queryString;
         RestApi api = Utils.getClient().create(RestApi.class);
         Call<ResponseModel> retrievedData;
 
         if (action.equalsIgnoreCase("GET_PAGINATED")) {
-            retrievedData = api.search("GET_PAGINATED", queryString, start, limit);
+            retrievedData = api.search("GET_PAGINATED", queryString, start, "10");
             Utils.showProgressBar(mProgressBar);
         } else if (action.equalsIgnoreCase("GET_PAGINATED_SEARCH")) {
             Utils.showProgressBar(mProgressBar);
-            retrievedData = api.search("GET_PAGINATED_SEARCH", queryString, start, limit);
+            retrievedData = api.search("GET_PAGINATED_SEARCH", queryString, start, "10");
         } else
 
 
@@ -165,7 +165,7 @@ public class ScientistsActivity extends AppCompatActivity
 						// Scrolling up
                         retrieveAndFillRecyclerView("GET_PAGINATED",
                          mAdapter.searchString,
-                         String.valueOf(totalScientists), "10");
+                         String.valueOf(totalScientists));
 
 					} else {
 						// Scrolling down
@@ -222,27 +222,6 @@ public class ScientistsActivity extends AppCompatActivity
         }
 
 
-
-//        switch (item.getItemId()) {
-//            case R.id.action_new:
-//                Utils.openActivity(this, CRUDActivity.class);
-//                finish();
-//                return true;
-//
-//            case R.id.action_new_en:
-//                Utils.openActivity(this, CRUDActivity.class);
-//                finish();
-//                return true;
-//
-//
-//            case R.id.action_new_ru:
-//                Utils.openActivity(this, CRUDActivity.class);
-//                finish();
-//                return true;
-//        }
-
-
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -253,7 +232,7 @@ public class ScientistsActivity extends AppCompatActivity
 
     @Override
     public boolean onQueryTextChange(String query) {
-        retrieveAndFillRecyclerView("GET_PAGINATED_SEARCH", query, "0", "10");
+        retrieveAndFillRecyclerView("GET_PAGINATED_SEARCH", query, "0");
         return false;
     }
 
@@ -271,12 +250,6 @@ public class ScientistsActivity extends AppCompatActivity
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
     }
-
-//    @Override
-//    public void onBackPressed() {
-//        super.onBackPressed();
-//        this.finish();
-//    }
 
     @Override
     public void onBackPressed() {
@@ -296,7 +269,7 @@ public class ScientistsActivity extends AppCompatActivity
         initializeViews();
         this.listenToRecyclerViewScroll();
         setupRecyclerView();
-        retrieveAndFillRecyclerView("GET_PAGINATED", "", "0", "10");
+        retrieveAndFillRecyclerView("GET_PAGINATED", "", "0");
     }
 }
 

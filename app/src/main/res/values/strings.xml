@@ -6,4 +6,29 @@
     <string name="romanian_language">romanian language</string>
     <string name="russian_language">russian language</string>
     <string name="afteni_tatiana">Afteni Tatiana</string>
+    <string name="searcher_1">Searcher</string>
+    <string name="adaug_angajat_mou_1">Adaugă angajat mou</string>
+    <string name="add_new_employee_1">Add new employee</string>
+    <string name="add_new_employee_2">Добавить нового сотрудника</string>
+    <string name="todo_1">TODO</string>
+    <string name="about_us_1">About us</string>
+    <string name="todo_2">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="administrative_n_authority">Administrative \n authority</string>
+    <string name="national_bureau_of_nstatistics_of_the_n_republic_of_moldova">National Bureau of \nStatistics of the \n Republic of Moldova</string>
+    <string name="division">Division</string>
+    <string name="general_division_for_n_informational_technologies_ndesigning_of_computer_napplications_division">General Division for\n Informational Technologies, \nDesigning of Computer \nApplications Division</string>
+    <string name="website">Website</string>
+    <string name="https_statistica_gov_md">https://statistica.gov.md/</string>
+    <string name="address">Address</string>
+    <string name="md_2019_chi_in_u_nstr_grenoble_106">MD-2019 Chişinău,\nstr. Grenoble 106</string>
+    <string name="division_head">Division Head</string>
+    <string name="bujor_vasile">Bujor Vasile</string>
+    <string name="Doru_Marian">HERGHELEGIU Doru-Marian</string>
+    <string name="programmer">Programmer</string>
+    <string name="gheorghita_natalia">Gheorghita Natalia</string>
+
+    <string name="bancu_vitalie">Bancu Vitalie</string>
+
+
 </resources>

@@ -8,9 +8,9 @@
     <item
         android:id="@+id/action_search"
         android:orderInCategory="1"
-        myapp:showAsAction="always"
+        myapp:showAsAction="ifRoom"
         myapp:actionViewClass="android.widget.SearchView"
-        android:title="Searcher" />
+        android:title="@string/searcher_1" />
 
 
 
@@ -18,17 +18,17 @@
 
     <item
         android:id="@+id/action_new"
-        android:title="Adaugă angajat mou"
+        android:title="@string/adaug_angajat_mou_1"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/action_new_en"
-        android:title="Add new employee"
+        android:title="@string/add_new_employee_1"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/action_new_ru"
-        android:title="Добавить нового сотрудника"
+        android:title="@string/add_new_employee_2"
         app:showAsAction="never" />
 
 </menu>
