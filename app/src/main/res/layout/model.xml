@@ -18,24 +18,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="20dp"
-            android:layout_toRightOf="@+id/mMaterialLetterIcon"
+            android:layout_toEndOf="@+id/mMaterialLetterIcon"
             android:padding="5dp"
-            android:text="Scientist's Name"
+            android:text="@string/scientist_s_name_1"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#009968" />
+            android:textColor="#009968"
+            tools:ignore="RelativeOverlap" />
 
         <TextView
             android:id="@+id/mstarTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="12dp"
-            android:layout_toRightOf="@+id/mMaterialLetterIcon"
+            android:layout_toEndOf="@+id/mMaterialLetterIcon"
             android:maxLines="3"
-            android:text="Scientists Description"
+            android:text="@string/scientists_description_1"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -45,11 +46,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="50dp"
-            android:layout_toRightOf="@+id/mMaterialLetterIcon"
+            android:layout_toEndOf="@+id/mMaterialLetterIcon"
             android:maxLines="3"
-            android:text="Depart"
+            android:text="@string/depart_model"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -59,11 +60,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="100dp"
 
             android:maxLines="3"
-            android:text="Sectia"
+            android:text="@string/sectia_model"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -72,11 +73,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="130dp"
 
             android:maxLines="3"
-            android:text="Sectia"
+            android:text="@string/sectia_model_1"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -86,11 +87,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="150dp"
 
             android:maxLines="3"
-            android:text="Phone"
+            android:text="@string/phone_model"
             android:autoLink="phone"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
@@ -101,11 +102,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="180dp"
 
             android:maxLines="3"
-            android:text="Phonemobile"
+            android:text="@string/phonemobile_model"
             android:autoLink="phone"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
@@ -115,11 +116,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="220dp"
 
             android:maxLines="3"
-            android:text="E-mail"
+            android:text="@string/e_mail_model"
             android:autoLink="email"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
@@ -129,11 +130,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="260dp"
 
             android:maxLines="3"
-            android:text="description"
+            android:text="@string/description_model"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -143,11 +144,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="300dp"
 
             android:maxLines="3"
-            android:text="formneame"
+            android:text="@string/formneame_model"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -156,11 +157,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="330dp"
 
             android:maxLines="3"
-            android:text="Status"
+            android:text="@string/model_status_2"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -169,11 +170,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="150dp"
+            android:layout_marginStart="150dp"
             android:layout_marginTop="330dp"
 
             android:maxLines="3"
-            android:text="Status"
+            android:text="@string/status_4"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -182,11 +183,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="360dp"
 
             android:maxLines="3"
-            android:text="Created Date"
+            android:text="@string/created_date_model_2"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -195,11 +196,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="150dp"
+            android:layout_marginStart="150dp"
             android:layout_marginTop="360dp"
 
             android:maxLines="3"
-            android:text="Created Date"
+            android:text="@string/created_date_model5"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -213,11 +214,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="400dp"
 
             android:maxLines="3"
-            android:text="Remove Date"
+            android:text="@string/remove_date_model6"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -226,11 +227,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="150dp"
+            android:layout_marginStart="150dp"
             android:layout_marginTop="400dp"
 
             android:maxLines="3"
-            android:text="Remove Date"
+            android:text="@string/remove_date_model1"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -241,11 +242,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="420dp"
 
             android:maxLines="3"
-            android:text="Date Updated"
+            android:text="@string/date_updated_model1"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -254,11 +255,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="150dp"
+            android:layout_marginStart="150dp"
             android:layout_marginTop="420dp"
 
             android:maxLines="3"
-            android:text="Date Updated"
+            android:text="@string/date_updated_model3"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -271,11 +272,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="440dp"
 
             android:maxLines="3"
-            android:text="Recovery Data"
+            android:text="@string/recovery_data_model4"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -284,11 +285,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/mNameTxt"
-            android:layout_marginLeft="150dp"
+            android:layout_marginStart="150dp"
             android:layout_marginTop="440dp"
 
             android:maxLines="3"
-            android:text="Recovery data"
+            android:text="@string/recovery_data_model6"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textStyle="italic" />
 
@@ -300,18 +301,18 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:text="Galaxy"
+            android:layout_alignParentEnd="true"
+            android:text="@string/galaxy_model_1"
             android:textColor="@color/colorAccent"
             android:textStyle="italic"
-            tools:ignore="MissingPrefix" />
+            tools:ignore="MissingPrefix,RelativeOverlap" />
 
         <com.github.ivbaranov.mli.MaterialLetterIcon
             android:id="@+id/mMaterialLetterIcon"
             android:layout_width="@dimen/list_item_avatar_size"
             android:layout_height="@dimen/list_item_avatar_size"
             android:layout_marginTop="40dp"
-            android:layout_marginRight="8dp" />
+            android:layout_marginEnd="8dp" />
 
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

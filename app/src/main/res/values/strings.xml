@@ -29,6 +29,27 @@
     <string name="gheorghita_natalia">Gheorghita Natalia</string>
 
     <string name="bancu_vitalie">Bancu Vitalie</string>
+    <string name="scientist_s_name_1">Scientist\'s Name</string>
+    <string name="scientists_description_1">Scientists Description</string>
+    <string name="depart_model">Depart</string>
+    <string name="sectia_model">Sectia</string>
+    <string name="sectia_model_1">Sectia</string>
+    <string name="phone_model">Phone</string>
+    <string name="phonemobile_model">Phonemobile</string>
+    <string name="e_mail_model">E-mail</string>
+    <string name="description_model">description</string>
+    <string name="formneame_model">formneame</string>
+    <string name="model_status_2">Status</string>
+    <string name="status_4">Status</string>
+    <string name="created_date_model_2">Created Date</string>
+    <string name="created_date_model5">Created Date</string>
+    <string name="remove_date_model6">Remove Date</string>
+    <string name="remove_date_model1">Remove Date</string>
+    <string name="date_updated_model1">Date Updated</string>
+    <string name="date_updated_model3">Date Updated</string>
+    <string name="recovery_data_model4">Recovery Data</string>
+    <string name="recovery_data_model6">Recovery data</string>
+    <string name="galaxy_model_1">Galaxy</string>
 
 
 </resources>
