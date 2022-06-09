@@ -36,13 +36,7 @@ public class DashboardActivity extends AppCompatActivity {
 
 
 
-        third.setOnClickListener(v -> {
-
-            Utils.openActivity(DashboardActivity.this,AboutUsActivity.class);
-//                Utils.showInfoDialog(DashboardActivity.this, "YEEES",
-//                "Hey You can Display another page when this is clicked");
-
-        });
+        third.setOnClickListener(v -> Utils.openActivity(DashboardActivity.this,AboutUsActivity.class));
         closeCard.setOnClickListener(v -> finish());
     }
     /**
@@ -61,14 +55,6 @@ public class DashboardActivity extends AppCompatActivity {
         super.onBackPressed();
         this.finish();
     }
-
-//    public void onBackPressed() {
-//        Intent intent;
-//        intent = new Intent(this, ScientistsActivity.class);
-//        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//        finish();
-//      //  startActivity(intent);
- //  }
 
     /**
      * Let's override the onCreate() and call our initializeWidgets()

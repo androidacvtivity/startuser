@@ -25,24 +25,15 @@ public class ResponseModel {
         return scientists;
     }
 
-    public void setResult(List<Scientist> scientists) {
-        this.scientists = scientists;
-    }
-
     public String getCode() {
         return code;
     }
 
-    public void setCode(String code) {
-        this.code = code;
-    }
+
 
     public String getMessage() {
         return message;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
-    }
 }
 //end

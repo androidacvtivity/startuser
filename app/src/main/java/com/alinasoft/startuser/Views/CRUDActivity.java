@@ -64,10 +64,6 @@ public class CRUDActivity extends AppCompatActivity {
         floorTxt = findViewById(R.id.floorTxt);
         officeTxt = findViewById(R.id.officeTxt);
 
-//        dobTxt = findViewById(R.id.dobTxt);
-//        dobTxt.setFormat(Utils.DATE_FORMAT);
-//        dodTxt = findViewById(R.id.dodTxt);
-//        dodTxt.setFormat(Utils.DATE_FORMAT);
     }
     /**
      * The following method will allow us insert data typed in this page into th
@@ -94,21 +90,6 @@ public class CRUDActivity extends AppCompatActivity {
             office = officeTxt.getText().toString();
 
 
-
-//            if (dobTxt.getDate() != null) {
-//                dob = dobTxt.getDate().toString();
-//            } else {
-//                dobTxt.setError("Invalid Date");
-//                dobTxt.requestFocus();
-//                return;
-//            }
-//            if (dodTxt.getDate() != null) {
-//                died = dodTxt.getDate().toString();
-//            } else {
-//                dodTxt.setError("Invalid Date");
-//                dodTxt.requestFocus();
-//                return;
-//            }
             RestApi api = Utils.getClient().create(RestApi.class);
             Call<ResponseModel> insertData = api.insertData("INSERT", name,
              description, galaxy, star,serviciu, sectia, depart, phone, phoneinternal,email,personalinfo,formname, phonemobil, floor, office);
@@ -121,7 +102,7 @@ public class CRUDActivity extends AppCompatActivity {
                                        @NonNull Response<ResponseModel> response) {
 
                     assert response.body() != null;
-                    Log.d("RETROFIT", "response : " + response.body().toString());
+                    Log.d("RETROFIT", "response : " + response.body());
                     String myResponseCode = response.body().getCode();
 
                     if (myResponseCode.equals("1")) {
@@ -173,20 +154,6 @@ public class CRUDActivity extends AppCompatActivity {
             office = officeTxt.getText().toString();
 
 
-//            if (dobTxt.getDate() != null) {
-//                dob = dobTxt.getFormat().format(dobTxt.getDate());
-//            } else {
-//                dobTxt.setError("Invalid Date");
-//                dobTxt.requestFocus();
-//                return;
-//            }
-//            if (dodTxt.getDate() != null) {
-//                died = dodTxt.getFormat().format(dodTxt.getDate());
-//            } else {
-//                dodTxt.setError("Invalid Date");
-//                dodTxt.requestFocus();
-//                return;
-//            }
             Utils.showProgressBar(mProgressBar);
             RestApi api = Utils.getClient().create(RestApi.class);
             Call<ResponseModel> update = api.updateData("UPDATE", id, name, description, galaxy,
@@ -350,9 +317,6 @@ public class CRUDActivity extends AppCompatActivity {
 
    // Show selected star in our edittext
 
-//    private void showSelectedStarInEditText() {
-//        starTxt.setOnClickListener(v -> Utils.selectStar(c, starTxt));
-//    }
     /**
      * When our back button is pressed
      */
@@ -460,63 +424,6 @@ public class CRUDActivity extends AppCompatActivity {
 
             }
 
-//        switch (item.getItemId()) {
-//            case R.id.insertMenuItem:
-//                insertData();
-//                return true;
-//            case R.id.editMenuItem:
-//                if (receivedScientist != null) {
-//                    updateData();
-//                } else {
-//                    Utils.show(this, "EDIT ONLY WORKS IN EDITING MODE");
-//                }
-//                return true;
-//
-//            case R.id.deleteMenuItem:
-//                if (receivedScientist != null) {
-//                    deleteData();
-//                } else {
-//                    Utils.show(this, "DELETE ONLY WORKS IN EDITING MODE");
-//                }
-//                return true;
-//
-//            case R.id.starItem:
-//                if (receivedScientist != null) {
-//                    deleteData1();
-//                } else {
-//                    Utils.show(this, "DELETE ONLY WORKS IN EDITING MODE");
-//                }
-//                return true;
-//
-//
-//            case R.id.deletetotalItem:
-//                if (receivedScientist != null) {
-//                    deleteTotalData();
-//                } else {
-//                    Utils.show(this, "DELETE ONLY WORKS IN EDITING MODE");
-//                }
-//                return true;
-//
-//
-//            case R.id.viewAllMenuItem:
-//                Utils.openActivity(this, ScientistsActivity.class);
-//                finish();
-//                return true;
-//            case android.R.id.home:
-//             //   NavUtils.navigateUpFromSameTask(this);
-//                //Utils.sendScientistToActivity(this,receivedScientist,ScientistsActivity.class);
-//
-//                    Intent intent;
-//                    intent = new Intent(this,ScientistsActivity.class);
-//                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//                    finish();
-//                    startActivity(intent);
-//                    return true;
-//
-////                Utils.showInfoDialog(this, "Atenție", "Sunteți sigutri că vreți sa esiți?");
-////                finish();
-////                return true;
-//        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -553,16 +460,6 @@ public class CRUDActivity extends AppCompatActivity {
             phonemobilTxt.setText(receivedScientist.getPhonemobil());
             floorTxt.setText(receivedScientist.getFloor());
             officeTxt.setText(receivedScientist.getOffice());
-//            Object dob = receivedScientist.getDob();
-//            if (dob != null) {
-//                String d = dob.toString();
-//                dobTxt.setDate(Utils.giveMeDate(d));
-//            }
-//            Object dod = receivedScientist.getDied();
-//            if (dod != null) {
-//                String d = dod.toString();
-//                dodTxt.setDate(Utils.giveMeDate(d));
-//            }
         } else {
             //Utils.show(c,"Received Scientist is Null");
         }

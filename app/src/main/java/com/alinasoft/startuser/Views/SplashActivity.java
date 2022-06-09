@@ -1,5 +1,6 @@
 package com.alinasoft.startuser.Views;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.animation.Animation;
@@ -14,6 +15,7 @@ import com.alinasoft.startuser.R;
 import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
 
+@SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {
 
     //our splash screen views

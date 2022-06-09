@@ -43,8 +43,6 @@ public class help extends BaseActivity {
      */
 
     public boolean onCreateOptionsMenu(Menu menu) {
-//        MenuInflater inflater = getMenuInflater();
-//        inflater.inflate(R.menu.help, menu);
 
         getMenuInflater().inflate(R.menu.help, menu);
         return true;
@@ -88,33 +86,15 @@ public class help extends BaseActivity {
                 return true;
             }
 
-//        switch (item.getItemId()) {
-//            case R.id.rolang:
-//                Utils.sendScientistToActivity(this, receivedScientist, help.class);
-//                finish();
-//                return true;
-//
-//            case R.id.enlang:
-//                Utils.sendScientistToActivity(this, receivedScientist, helpen.class);
-//                finish();
-//                return true;
-//
-//            case R.id.rulang:
-//                Utils.sendScientistToActivity(this,receivedScientist,helpru.class);
-//                finish();
-//                return true;
-//
-//
-//        }
-
-
 
         return super.onOptionsItemSelected(item);
 
     }
 
-//    public void setReceivedScientist(Scientist receivedScientist) {
-//        this.receivedScientist = receivedScientist;
-//    }
+    @SuppressWarnings("unused")
+    public void setReceivedScientist(Scientist receivedScientist) {
+        this.receivedScientist = receivedScientist;
+    }
+
 
 }

@@ -10,9 +10,9 @@
         android:title="SAVE"
         android:icon="@drawable/m_add"
         app:showAsAction="always" />
-    <item
-        android:id="@+id/viewAllMenuItem"
-        android:title="VIEW ALL"
-        android:icon="@drawable/m_list"
-        app:showAsAction="always" />
+<!--    <item-->
+<!--        android:id="@+id/viewAllMenuItem"-->
+<!--        android:title="VIEW ALL"-->
+<!--        android:icon="@drawable/m_list"-->
+<!--        app:showAsAction="always" />-->
 </menu>

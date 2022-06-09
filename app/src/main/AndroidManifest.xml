@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.alinasoft.startuser">
 
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -15,7 +16,9 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:vmSafeMode="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        tools:targetApi="s">
         <activity android:name="com.alinasoft.startuser.Views.SplashActivity" android:theme="@style/SplashTheme" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +36,7 @@
             android:name="com.alinasoft.startuser.Views.CRUDActivity"
             android:exported="true"
             android:theme="@style/CRUDTheme"
-            android:label="Adaugă"
+            android:label="Adauga"
             android:parentActivityName="com.alinasoft.startuser.Views.DashboardActivity" />
         <activity
             android:name="com.alinasoft.startuser.Views.DetailActivity"
