@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="16dp">
@@ -10,19 +11,20 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:text="Informație despre angajat "
+                    android:text="@string/informa_ie_despre_angajat_dc"
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     android:textColor="@color/niceGreenish"
@@ -43,7 +45,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Nume, prenume "
+                            android:text="@string/nume_prenume_dc"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
 
@@ -53,7 +55,7 @@
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
 
-                            android:text="ALBERT EINSTEIN" />
+                            android:text="@string/albert_einstein_dc" />
 
                     </LinearLayout>
 
@@ -74,7 +76,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Locația"
+                            android:text="@string/loca_ia_md"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
 
@@ -84,7 +86,7 @@
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
 
-                            android:text="This is the description." />
+                            android:text="@string/this_is_the_description_md" />
 
                         <!--                        <TextView-->
                         <!--                            android:layout_width="match_parent"-->
@@ -135,7 +137,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Etajul"
+                            android:text="@string/etajul_md_md"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
 
@@ -145,7 +147,7 @@
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
 
-                            android:text="This is the description." />
+                            android:text="@string/this_is_the_description_cd" />
 
                         <!--                        <TextView-->
                         <!--                            android:layout_width="match_parent"-->
@@ -182,7 +184,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Biroul"
+                            android:text="@string/biroul_cd"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
 
@@ -192,7 +194,7 @@
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
 
-                            android:text="This is the description." />
+                            android:text="@string/this_is_the_description_cd_cd" />
 
                         <!--                        <TextView-->
                         <!--                            android:layout_width="match_parent"-->
@@ -243,7 +245,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Funcția"
+                            android:text="@string/func_ia_cd_cd"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
 
@@ -253,7 +255,7 @@
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
 
-                            android:text="Galaxy" />
+                            android:text="@string/galaxy_cd_cd" />
 
                     </LinearLayout>
 
@@ -275,7 +277,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Serviciu"
+                            android:text="@string/serviciu_cd"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
 
@@ -285,7 +287,7 @@
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
 
-                            android:text="Serviciu" />
+                            android:text="@string/serviciu_cd_cd" />
 
 
                     </LinearLayout>
@@ -308,7 +310,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Secția"
+                            android:text="@string/sec_ia_cd_cd"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
 
@@ -318,7 +320,7 @@
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
 
-                            android:text="Secția" />
+                            android:text="@string/_cd_dd" />
 
 
                     </LinearLayout>
@@ -340,7 +342,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Dirtecția"
+                            android:text="@string/dirtec_ia_cd"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
 
@@ -350,7 +352,7 @@
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
 
-                            android:text="Dirtecția" />
+                            android:text="@string/dirtec_ia_cd_cd" />
 
 
                     </LinearLayout>
@@ -373,7 +375,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Dirtecția generală"
+                            android:text="@string/dirtec_ia_general_dc"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
 
@@ -383,7 +385,7 @@
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
 
-                            android:text="Star" />
+                            android:text="@string/star_dc" />
 
                     </LinearLayout>
 
@@ -405,7 +407,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Telefon fix serviciu"
+                            android:text="@string/telefon_fix_serviciu_dc"
 
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
@@ -417,7 +419,7 @@
                             android:autoLink="phone"
                             android:padding="@dimen/text_padding"
 
-                            android:text="Star" />
+                            android:text="@string/star_dcdc" />
 
                     </LinearLayout>
 
@@ -439,7 +441,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Telefon mobil serviciu"
+                            android:text="@string/telefon_mobil_serviciu_dc"
 
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
@@ -451,7 +453,7 @@
                             android:autoLink="phone"
                             android:padding="@dimen/text_padding"
 
-                            android:text="Star" />
+                            android:text="@string/star_dcdcdc" />
 
                     </LinearLayout>
 
@@ -474,7 +476,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Telefon intern"
+                            android:text="@string/telefon_intern_dcdcdc"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
 
@@ -483,7 +485,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Star"
+                            android:text="@string/star_dc_dc"
 
                             />
 
@@ -507,7 +509,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Cercetări Statistice"
+                            android:text="@string/cercet_ri_statistice_dc_dc"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
 
@@ -517,7 +519,7 @@
                             android:layout_height="wrap_content"
                             android:autoLink="email"
                             android:padding="@dimen/text_padding"
-                            android:text="Cercetări Statistice" />
+                            android:text="@string/cercet_ri_statistice_dc_dcdc" />
 
                     </LinearLayout>
 
@@ -539,7 +541,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="E-mail"
+                            android:text="@string/e_mail_dc_dc"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
 
@@ -549,7 +551,7 @@
                             android:layout_height="wrap_content"
                             android:autoLink="email"
                             android:padding="@dimen/text_padding"
-                            android:text="Star" />
+                            android:text="@string/star_12" />
 
                     </LinearLayout>
 
@@ -572,7 +574,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Informații personale"
+                            android:text="@string/informa_ii_personale_90978"
 
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/colorAccent" />
@@ -584,7 +586,7 @@
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
 
-                            android:text="Star" />
+                            android:text="@string/star_hkhj" />
 
                     </LinearLayout>
 
@@ -606,7 +608,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Pentru administratori"
+                            android:text="@string/pentru_administratori_puiu"
 
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/deepBlue" />
@@ -640,7 +642,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Data crearii"
+                            android:text="@string/data_crearii_lkjlk"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/deepBlue" />
 
@@ -650,7 +652,7 @@
                             android:layout_height="wrap_content"
                             android:autoLink="email"
                             android:padding="@dimen/text_padding"
-                            android:text="Star" />
+                            android:text="@string/star_cd" />
 
                     </LinearLayout>
 
@@ -671,7 +673,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Remove date"
+                            android:text="@string/remove_date_cd"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/deepBlue" />
 
@@ -681,7 +683,7 @@
                             android:layout_height="wrap_content"
                             android:autoLink="email"
                             android:padding="@dimen/text_padding"
-                            android:text="Remove date" />
+                            android:text="@string/remove_date_cdcd" />
 
                     </LinearLayout>
 
@@ -703,7 +705,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Date Updated"
+                            android:text="@string/date_updated_cdcd"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/deepBlue" />
 
@@ -713,7 +715,8 @@
                             android:layout_height="wrap_content"
                             android:autoLink="email"
                             android:padding="@dimen/text_padding"
-                            android:text="Date updated" />
+                            android:text="@string/date_updated_cd"
+                            tools:ignore="TooManyViews" />
 
                     </LinearLayout>
 
@@ -737,7 +740,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Recovery data"
+                            android:text="@string/recovery_data_cd"
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/deepBlue" />
 
@@ -747,7 +750,7 @@
                             android:layout_height="wrap_content"
                             android:autoLink="email"
                             android:padding="@dimen/text_padding"
-                            android:text="Recovery data" />
+                            android:text="@string/recovery_data_cdcd" />
 
                     </LinearLayout>
 
@@ -770,7 +773,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="@dimen/text_padding"
-                            android:text="Statutul"
+                            android:text="@string/statutul_cd"
 
                             android:textAppearance="@style/TextAppearance.AppCompat.Title"
                             android:textColor="@color/deepBlue" />
@@ -782,7 +785,7 @@
                                                     android:layout_height="wrap_content"
                                                     android:padding="@dimen/text_padding"
 
-                                                    android:text="Star" />
+                                                    android:text="@string/star_cdcd" />
 
                     </LinearLayout>
 
