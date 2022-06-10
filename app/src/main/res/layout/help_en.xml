@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -27,15 +26,16 @@
                     android:layout_height="30dp"
                     android:layout_centerVertical="true"
                     android:padding="5dp"
-                    android:src="@drawable/ic_back_arrow" />
+                    android:src="@drawable/ic_back_arrow"
+                    android:contentDescription="@string/a1"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_toRightOf="@+id/mBackArrowh_en"
-                    android:text="About this application"
+                    android:layout_toEndOf="@+id/mBackArrowh_en"
+                    android:text="@string/a2"
                     android:textColor="@color/white"
                     android:textSize="21sp"
                     android:layout_marginStart="20dp" />
@@ -59,7 +59,8 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -86,10 +87,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
 
 
-                        android:text="The application for the list of employees was developed to facilitate access to contact information via mobile phone (Operating system: Android)." />
+                        android:text="@string/a3" />
 
                     <!--                    <Button-->
                     <!--                        android:id="@+id/locatebtn"-->
@@ -124,9 +125,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
 
-                        android:text="The application includes the list of employee profiles with contact information." />
+                        android:text="@string/a4" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -149,10 +150,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
 
 
-                        android:text="The functions provided by the program (List of officials from the NBS (conventional name)) have been grouped into categories and are presented below." />
+                        android:text="@string/a5" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -167,7 +168,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:text="1"
+                        android:text="@string/a6"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -175,10 +176,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/websiteLabel_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/websiteLabel_h"
 
-                        android:text="Displays the list of NBS officials and territorial structures. (By connecting to the MySQL database, the data is stored here. Why is a client-server application? The client-server principle is used as in the intranet.statistica.md web application). The employee information is updated in the database. And any employee who has this application installed on their mobile phone, Android OS, accesses the updated data."
+                        android:text="@string/a7"
                         />
                 </RelativeLayout>
 
@@ -195,7 +196,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:autoLink="email"
-                        android:text="2"
+                        android:text="@string/a8"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -203,9 +204,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/address_h"
-                        android:text="List of open data that are displayed about (NBS civil servant / employee) and territorial structures." />
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/address_h"
+                        android:text="@string/a9" />
                 </RelativeLayout>
 
 
@@ -222,7 +223,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.1"
+                        android:text="@string/a10"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -230,10 +231,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/emailLabel_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/emailLabel_h"
 
-                        android:text="Name,  Surname" />
+                        android:text="@string/a12" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -249,7 +250,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.2"
+                        android:text="@string/a13"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -257,10 +258,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/locatia_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/locatia_h"
 
-                        android:text="Location - Address" />
+                        android:text="@string/a15" />
                 </RelativeLayout>
 
 
@@ -277,7 +278,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.3"
+                        android:text="@string/a16"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -285,10 +286,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/etajul_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/etajul_h"
 
-                        android:text=" Floor" />
+                        android:text="@string/a17" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -304,7 +305,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.4"
+                        android:text="@string/a18"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -312,10 +313,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/biroul_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/biroul_h"
 
-                        android:text=" Office " />
+                        android:text="@string/a19" />
                 </RelativeLayout>
 
 
@@ -332,7 +333,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.5"
+                        android:text="@string/a20"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -340,10 +341,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/functia_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/functia_h"
 
-                        android:text=" Position " />
+                        android:text="@string/a21" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -359,7 +360,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.6"
+                        android:text="@string/a24"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -367,10 +368,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/serviciu_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/serviciu_h"
 
-                        android:text=" Service " />
+                        android:text="@string/a25" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -386,7 +387,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.7"
+                        android:text="@string/a27"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -394,10 +395,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/sectia_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/sectia_h"
 
-                        android:text=" Section " />
+                        android:text="@string/a31" />
                 </RelativeLayout>
 
 
@@ -414,7 +415,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.8"
+                        android:text="@string/a33"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -422,10 +423,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/directia_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/directia_h"
 
-                        android:text=" Division " />
+                        android:text="@string/a38" />
                 </RelativeLayout>
 
 
@@ -442,7 +443,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.9"
+                        android:text="@string/a40"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -450,10 +451,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/directiagenerala_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/directiagenerala_h"
 
-                        android:text=" General Division " />
+                        android:text="@string/a41" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -469,7 +470,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.10"
+                        android:text="@string/a42"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -477,10 +478,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/phoneintern_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/phoneintern_h"
 
-                        android:text=" Official telephone " />
+                        android:text="@string/a45" />
                 </RelativeLayout>
 
 
@@ -497,7 +498,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.11"
+                        android:text="@string/a50"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -505,10 +506,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/phonemobile_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/phonemobile_h"
 
-                        android:text=" Office mobile phone. " />
+                        android:text="@string/a51" />
                 </RelativeLayout>
 
 
@@ -525,7 +526,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.12"
+                        android:text="@string/a52"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -533,10 +534,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/phonemobileintern_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/phonemobileintern_h"
 
-                        android:text=" Internal telephone " />
+                        android:text="@string/a53" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -552,7 +553,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.13"
+                        android:text="@string/a54"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -560,10 +561,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/cercetare_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/cercetare_h"
 
-                        android:text=" Statistical Research" />
+                        android:text="@string/a56" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -579,7 +580,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.14"
+                        android:text="@string/a57"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -587,10 +588,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/email_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/email_h"
 
-                        android:text="E-mail" />
+                        android:text="@string/a58" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -606,7 +607,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="2.15"
+                        android:text="@string/a59"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -614,10 +615,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/info_gen_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/info_gen_h"
 
-                        android:text="Personal Information " />
+                        android:text="@string/a60" />
                 </RelativeLayout>
 
 
@@ -635,7 +636,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="3"
+                        android:text="@string/a70"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -643,10 +644,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/chapter3_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/chapter3_h"
 
-                        android:text="The search function allows you to search by the following fields" />
+                        android:text="@string/a71" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -662,7 +663,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="3.1"
+                        android:text="@string/a72"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -670,10 +671,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/chapter4_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/chapter4_h"
 
-                        android:text="Name or surname" />
+                        android:text="@string/a73" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -689,7 +690,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="3.2"
+                        android:text="@string/a74"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -697,10 +698,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/chapter5_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/chapter5_h"
 
-                        android:text="By position" />
+                        android:text="@string/a77" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -716,7 +717,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="3.3"
+                        android:text="@string/a78"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -724,10 +725,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/chapter6_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/chapter6_h"
 
-                        android:text="By General Division" />
+                        android:text="@string/by_general_division_11" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -735,7 +736,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_below="@+id/mRelativeLayouth_h24_h"
-                    android:background="@drawable/shadow_bottom">
+                    android:background="@drawable/shadow_bottom"
+                    tools:ignore="TooManyViews">
 
                     <TextView
                         android:id="@+id/chapter7_h"
@@ -743,7 +745,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="3.4"
+                        android:text="@string/_3_4_11_2"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -751,10 +753,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/chapter7_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/chapter7_h"
 
-                        android:text="By Division" />
+                        android:text="@string/by_division_a1" />
                 </RelativeLayout>
 
 
@@ -771,7 +773,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="3.5"
+                        android:text="@string/_3_5_a23"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -779,10 +781,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/chapter8_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/chapter8_h"
 
-                        android:text="By  Section" />
+                        android:text="@string/by_section_a23" />
                 </RelativeLayout>
 
 
@@ -799,7 +801,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="3.6"
+                        android:text="@string/_3_6_234"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -807,10 +809,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/chapter9_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/chapter9_h"
 
-                        android:text="By service" />
+                        android:text="@string/by_service_34" />
                 </RelativeLayout>
 
 
@@ -828,7 +830,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="3.7"
+                        android:text="@string/_3_7_345"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -836,10 +838,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/chapter10_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/chapter10_h"
 
-                        android:text="By phone" />
+                        android:text="@string/by_phone_1" />
                 </RelativeLayout>
 
 
@@ -856,7 +858,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="3.7"
+                        android:text="@string/_3_7_12"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -864,10 +866,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/chapter11_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/chapter11_h"
 
-                        android:text="By address" />
+                        android:text="@string/by_address_11" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -883,7 +885,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="3.8"
+                        android:text="@string/_3_8_ne1"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -891,10 +893,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/chapter12_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/chapter12_h"
 
-                        android:text="By mobile phone of the office" />
+                        android:text="@string/by_mobile_phone_of_the_office_1" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -910,7 +912,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="4"
+                        android:text="@string/_4_by_1"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -918,10 +920,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/chapter14_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/chapter14_h"
 
-                        android:text="The search function searches simultaneously in all fields in which the search is allowed." />
+                        android:text="@string/the_search_function_searches_simultaneously_in_all_fields_in_which_the_search_is_allowed" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -937,7 +939,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="4.1"
+                        android:text="@string/_4_1_by2"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -945,10 +947,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/chapter15_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/chapter15_h"
 
-                        android:text="The search is performed according to the principle (the appearance of a substring in a row)." />
+                        android:text="@string/the_search_is_performed_according_to_the_principle_the_appearance_of_a_substring_in_a_row_12" />
                 </RelativeLayout>
 
 
@@ -965,7 +967,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
 
-                        android:text="4.2"
+                        android:text="@string/_4_2_by"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -973,10 +975,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:layout_toRightOf="@+id/chapter16_h"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/chapter16_h"
 
-                        android:text="The numbers of fixed and mobile phones, the e-mail addresses on the profile as well as inside the profile, allow direct dialing by a simple click. " />
+                        android:text="@string/the_numbers_of_fixed_and_mobile_phones_the_e_mail_addresses_on_the_profile_as_well_as_inside_the_profile_allow_direct_dialing_by_a_simple_click_23" />
                 </RelativeLayout>
 
 
