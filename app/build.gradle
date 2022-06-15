@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdk 32
+    compileSdk 33
     defaultConfig {
         applicationId "com.alinasoft.startuser"
-        minSdkVersion 23
-        targetSdkVersion 32
+        minSdkVersion 21
+        targetSdkVersion 33
         versionCode 1
         versionName "2.3"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
