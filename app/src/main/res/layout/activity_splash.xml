@@ -13,7 +13,9 @@
         android:id="@+id/mLogo"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:src="@drawable/campo" />
+        android:src="@drawable/campo"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
 
     <TextView
         android:id="@+id/mainTitle"
@@ -24,7 +26,8 @@
         android:textAlignment="center"
         android:textColor="@color/colorTitleColor"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
 
 
     <TextView
@@ -37,7 +40,7 @@
         android:textColor="@color/colorTitleColor"
         android:textSize="22sp"
 
-        />
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/subTitle"
@@ -46,6 +49,7 @@
         android:text="Direcția proiectare aplicații informatice"
         android:textAlignment="center"
         android:textColor="@color/colorTitleColor"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
 
 </LinearLayout>
