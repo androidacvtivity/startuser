@@ -61,7 +61,8 @@
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground">
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:focusable="true">
 
                     <LinearLayout
                         android:id="@+id/viewScientistsCard"
@@ -76,7 +77,9 @@
                             android:background="@drawable/m_circle_bg_purple"
                             android:layout_gravity="center_horizontal"
                             android:padding="10dp"
-                            android:src="@drawable/m_list" />
+                            android:src="@drawable/m_list"
+                            android:contentDescription="TODO"
+                            tools:ignore="ContentDescription,HardcodedText" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -84,7 +87,8 @@
                             android:layout_marginTop="10dp"
                             android:layout_gravity="center_horizontal"
                             android:text="Vizualizarea tuturor"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
 
 
                         <TextView
@@ -94,7 +98,8 @@
                             android:padding="5dp"
                             android:text="Vizualizarea tuturor angajaților"
                             android:layout_gravity="center_horizontal"
-                            android:textColor="@android:color/darker_gray" />
+                            android:textColor="@android:color/darker_gray"
+                            tools:ignore="HardcodedText" />
 
                     </LinearLayout>
 
@@ -105,7 +110,8 @@
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground">
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:focusable="true">
 
                     <LinearLayout
                         android:id="@+id/addScientistCard"
@@ -120,7 +126,9 @@
                             android:background="@drawable/m_circle_bg_pink"
                             android:layout_gravity="center_horizontal"
                             android:padding="10dp"
-                            android:src="@drawable/m_add" />
+                            android:src="@drawable/m_add"
+                            android:contentDescription="TODO"
+                            tools:ignore="ContentDescription,HardcodedText" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -128,7 +136,8 @@
                             android:layout_marginTop="10dp"
                             android:layout_gravity="center_horizontal"
                             android:text="Adăuga"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
 
 
                         <TextView
@@ -138,7 +147,8 @@
                             android:padding="5dp"
                             android:text="Adăuga angajat nou în baza de date"
                             android:layout_gravity="center_horizontal"
-                            android:textColor="@android:color/darker_gray" />
+                            android:textColor="@android:color/darker_gray"
+                            tools:ignore="HardcodedText" />
 
                     </LinearLayout>
 
@@ -157,7 +167,8 @@
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground">
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:focusable="true">
 
                     <LinearLayout
                         android:id="@+id/third"
@@ -172,7 +183,9 @@
                             android:background="@drawable/m_circle_bg_green"
                             android:layout_gravity="center_horizontal"
                             android:padding="10dp"
-                            android:src="@drawable/m_cloud_circle_black" />
+                            android:src="@drawable/m_cloud_circle_black"
+                            android:contentDescription="TODO"
+                            tools:ignore="ContentDescription,HardcodedText" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -180,7 +193,8 @@
                             android:layout_marginTop="10dp"
                             android:text="About us"
                             android:layout_gravity="center_horizontal"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -189,7 +203,8 @@
                             android:padding="5dp"
                             android:text="View About / Contatact us"
                             android:layout_gravity="center_horizontal"
-                            android:textColor="@android:color/darker_gray" />
+                            android:textColor="@android:color/darker_gray"
+                            tools:ignore="HardcodedText" />
 
                     </LinearLayout>
 
@@ -200,7 +215,8 @@
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground">
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:focusable="true">
 
                     <LinearLayout
                         android:id="@+id/help"
@@ -215,7 +231,9 @@
                             android:layout_gravity="center_horizontal"
                             android:background="@drawable/m_circle_bg_yello"
                             android:padding="10dp"
-                            android:src="@drawable/man" />
+                            android:src="@drawable/man"
+                            android:contentDescription="TODO"
+                            tools:ignore="ContentDescription,HardcodedText" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -223,7 +241,8 @@
                             android:layout_marginTop="10dp"
                             android:layout_gravity="center_horizontal"
                             android:text="Indrumar"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
 
 
                         <TextView
@@ -232,7 +251,8 @@
                             android:gravity="center"
                             android:padding="5dp"
                             android:text="Idespre functionalitatea aplicatiei"
-                            android:textColor="@android:color/darker_gray" />
+                            android:textColor="@android:color/darker_gray"
+                            tools:ignore="HardcodedText" />
 
                     </LinearLayout>
 
@@ -252,7 +272,8 @@
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground">
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:focusable="true">
 
                     <LinearLayout
                         android:id="@+id/fourth"
@@ -295,7 +316,8 @@
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground">
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:focusable="true">
 
                     <LinearLayout
                         android:id="@+id/closeCard"
@@ -310,7 +332,9 @@
                             android:background="@drawable/m_circle_bg_yello"
                             android:layout_gravity="center_horizontal"
                             android:padding="10dp"
-                            android:src="@drawable/m_icon_logout" />
+                            android:src="@drawable/m_icon_logout"
+                            android:contentDescription="TODO"
+                            tools:ignore="ContentDescription,HardcodedText" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -318,7 +342,8 @@
                             android:layout_marginTop="10dp"
                             android:layout_gravity="center_horizontal"
                             android:text="Ieșire"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
 
 
                         <TextView
@@ -327,7 +352,8 @@
                             android:gravity="center"
                             android:padding="5dp"
                             android:text="Ieșire din aplicație."
-                            android:textColor="@android:color/darker_gray" />
+                            android:textColor="@android:color/darker_gray"
+                            tools:ignore="HardcodedText" />
 
                     </LinearLayout>
 
