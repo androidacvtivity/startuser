@@ -5,6 +5,17 @@
     <string name="Locatia_info">Locația</string>
     <string name="Etajul_info">Etajul</string>
     <string name="Office_info">Biroul</string>
+    <string name="function_info">Funcția</string>
+    <string name="function_serviciu">Serviciu</string>
+    <string name="info_sectia">Secția</string>
+    <string name="info_directia">Dirtecția</string>
+    <string name="info_directia_generala">Dirtecția generală</string>
+    <string name="phone_crud">Telefon fix de serviciu</string>
+    <string name="phone_mobile_crud">Telefon mobil de serviciu</string>
+    <string name="crud_telefon_intern">Telefon intern</string>
+    <string name="crud_cercetari_statistice">Cercetări Statistice</string>
+    <string name="crud_e_mail">E-mail</string>
+    <string name="crud_info_personal">Informații personale</string>
 
     <string name="Info_name" tools:ignore="ExtraTranslation">Nume, prenume</string>
 
