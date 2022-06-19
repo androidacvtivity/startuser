@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="Scientists Editing Page"
+            android:text="@string/Scientists_crud"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/niceGreenish"
@@ -49,7 +49,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/text_padding"
-                    android:text="Instrucțiune "
+                    android:text="@string/Instructiune_crud"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
                     android:textColor="@color/skyblue" />
 
@@ -58,7 +58,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/text_padding"
-                    android:text="Adaugați angajatul  în edittext, apoi faceți clic pe butonul de salvare din bara de instrumente. Unele câmpuri precum numele și locați trebuie să fie completate." />
+                    android:text="@string/info_crud" />
 
             </LinearLayout>
 
@@ -78,10 +78,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/text_padding"
-                    android:text="Informație despre angajat"
+                    android:text="@string/info_employe"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
                     android:textColor="@color/niceGreenish"
                     tools:ignore="MissingPrefix" />
+
 
                 <EditText
                     android:id="@+id/nameTxt"
@@ -89,9 +90,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginBottom="16dp"
-                    android:hint="Nume, prenume "
+                    android:autofillHints=""
+                    android:hint="@string/Info_name"
+                    android:inputType="text"
                     tools:ignore="MissingPrefix" />
-
 
                 <EditText
                     android:id="@+id/descriptionTxt"
@@ -99,9 +101,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginBottom="16dp"
-                    android:hint="Locația"
+                    android:hint="@string/Locatia_info"
                     android:minLines="3"
-                    tools:ignore="MissingPrefix" />
+                    tools:ignore="MissingPrefix"
+                    android:autofillHints=""
+                    android:inputType="text" />
 
                 <EditText
                     android:id="@+id/floorTxt"
@@ -109,9 +113,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginBottom="16dp"
-                    android:hint="Etajul"
+                    android:hint="@string/Etajul_info"
                     android:minLines="3"
-                    tools:ignore="MissingPrefix" />
+                    tools:ignore="MissingPrefix"
+                    android:autofillHints=""
+                    android:inputType="number" />
 
 
                 <EditText
@@ -120,9 +126,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginBottom="16dp"
-                    android:hint="Biroul"
+                    android:hint="@string/Office_info"
                     android:minLines="3"
-                    tools:ignore="MissingPrefix" />
+                    tools:ignore="MissingPrefix"
+                    android:autofillHints=""
+                    android:inputType="number" />
 
 
                 <EditText
@@ -132,7 +140,9 @@
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
                     android:hint="Funcția"
-                    tools:ignore="MissingPrefix" />
+                    tools:ignore="MissingPrefix"
+                    android:autofillHints=""
+                    android:inputType="text" />
 
 
                 <EditText
@@ -142,7 +152,9 @@
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
                     android:hint="Serviciu"
-                    tools:ignore="MissingPrefix" />
+                    tools:ignore="MissingPrefix"
+                    android:inputType="text"
+                    android:autofillHints="" />
 
                 <EditText
                 android:id="@+id/sectiaTxt"
@@ -151,7 +163,9 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
                 android:hint="Secția"
-                tools:ignore="MissingPrefix" />
+                tools:ignore="MissingPrefix"
+                    android:autofillHints=""
+                    android:inputType="text" />
 
                 <EditText
                     android:id="@+id/departTxt"
@@ -160,7 +174,9 @@
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
                     android:hint="Dirtecția"
-                    tools:ignore="MissingPrefix" />
+                    tools:ignore="MissingPrefix"
+                    android:autofillHints=""
+                    android:inputType="text" />
 
                 <EditText
                     android:id="@+id/starTxt"
@@ -169,7 +185,9 @@
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
                     android:hint="Dirtecția generală"
-                    tools:ignore="MissingPrefix" />
+                    tools:ignore="MissingPrefix"
+                    android:autofillHints=""
+                    android:inputType="text" />
 
 
 
@@ -180,7 +198,9 @@
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
                     android:hint="Telefon fix de serviciu"
-                    tools:ignore="MissingPrefix" />
+                    tools:ignore="MissingPrefix"
+                    android:autofillHints=""
+                    android:inputType="phone" />
 
                 <EditText
                     android:id="@+id/phonemobilTxt"
@@ -189,7 +209,9 @@
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
                     android:hint="Telefon mobil de serviciu"
-                    tools:ignore="MissingPrefix" />
+                    tools:ignore="MissingPrefix"
+                    android:autofillHints=""
+                    android:inputType="phone" />
 
 
 
@@ -200,7 +222,9 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
                 android:hint="Telefon intern"
-                tools:ignore="MissingPrefix" />
+                tools:ignore="MissingPrefix"
+                    android:autofillHints=""
+                    android:inputType="phone" />
 
                 <EditText
                     android:id="@+id/formnameTxt"
@@ -209,7 +233,9 @@
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
                     android:hint="Cercetări Statistice"
-                    tools:ignore="MissingPrefix" />
+                    tools:ignore="MissingPrefix"
+                    android:autofillHints=""
+                    android:inputType="text" />
 
                 <EditText
                     android:id="@+id/emailTxt"
@@ -218,7 +244,9 @@
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
                     android:hint="E-mail"
-                    tools:ignore="MissingPrefix" />
+                    tools:ignore="MissingPrefix"
+                    android:autofillHints=""
+                    android:inputType="textEmailAddress" />
 
                 <EditText
                     android:id="@+id/personalinfoTxt"
@@ -227,7 +255,9 @@
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
                     android:hint="Informații personale"
-                    tools:ignore="MissingPrefix" />
+                    tools:ignore="MissingPrefix"
+                    android:autofillHints=""
+                    android:inputType="text" />
 
             </LinearLayout>
 
