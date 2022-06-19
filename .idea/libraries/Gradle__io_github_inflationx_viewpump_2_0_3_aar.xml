@@ -4,13 +4,13 @@
       <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/87f0e05782b7a6a31cd2c9202367aff0/transformed/jetified-viewpump-2.0.3/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/87f0e05782b7a6a31cd2c9202367aff0/transformed/jetified-viewpump-2.0.3/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/87f0e05782b7a6a31cd2c9202367aff0/transformed/jetified-viewpump-2.0.3/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/87f0e05782b7a6a31cd2c9202367aff0/transformed/jetified-viewpump-2.0.3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/87f0e05782b7a6a31cd2c9202367aff0/transformed/jetified-viewpump-2.0.3/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/87f0e05782b7a6a31cd2c9202367aff0/transformed/jetified-viewpump-2.0.3/res" />
+      <root url="jar://$PROJECT_DIR$/../Level_stat/caches/transforms-3/87f0e05782b7a6a31cd2c9202367aff0/transformed/jetified-viewpump-2.0.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Level_stat/caches/transforms-3/87f0e05782b7a6a31cd2c9202367aff0/transformed/jetified-viewpump-2.0.3/res" />
+      <root url="file://$PROJECT_DIR$/../Level_stat/caches/transforms-3/87f0e05782b7a6a31cd2c9202367aff0/transformed/jetified-viewpump-2.0.3/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.inflationx/viewpump/2.0.3/c604e675bc873c8a1189c0d1e18728906cba7596/viewpump-2.0.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Level_stat/caches/modules-2/files-2.1/io.github.inflationx/viewpump/2.0.3/c604e675bc873c8a1189c0d1e18728906cba7596/viewpump-2.0.3-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
