@@ -1,4 +1,16 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="Scientists_crud">Scientists Editing Page</string>
+    <string name="Instructiune_crud">Instrucțiune</string>
+    <string name="Locatia_info">Locația</string>
+    <string name="Etajul_info">Etajul</string>
+    <string name="Office_info">Biroul</string>
+
+    <string name="Info_name" tools:ignore="ExtraTranslation">Nume, prenume</string>
+
+    <string name="info_employe">Informație despre angajat</string>
+    <string name="info_crud">Adaugați angajatul  în edittext, apoi faceți clic pe butonul de salvare din bara de instrumente. Unele câmpuri precum numele și locați trebuie să fie completate.</string>
+
     <string name="app_name">Admin Access mobile</string>
     <string name="editeaz_terge">Editează/Șterge</string>
     <string name="view_all">VIEW ALL</string>
