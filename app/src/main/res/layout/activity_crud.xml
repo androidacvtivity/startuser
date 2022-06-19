@@ -139,7 +139,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
-                    android:hint="Funcția"
+                    android:hint="@string/function_info"
                     tools:ignore="MissingPrefix"
                     android:autofillHints=""
                     android:inputType="text" />
@@ -151,7 +151,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
-                    android:hint="Serviciu"
+                    android:hint="@string/function_serviciu"
                     tools:ignore="MissingPrefix"
                     android:inputType="text"
                     android:autofillHints="" />
@@ -162,7 +162,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
-                android:hint="Secția"
+                android:hint="@string/info_sectia"
                 tools:ignore="MissingPrefix"
                     android:autofillHints=""
                     android:inputType="text" />
@@ -173,7 +173,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
-                    android:hint="Dirtecția"
+                    android:hint="@string/info_directia"
                     tools:ignore="MissingPrefix"
                     android:autofillHints=""
                     android:inputType="text" />
@@ -184,7 +184,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
-                    android:hint="Dirtecția generală"
+                    android:hint="@string/info_directia_generala"
                     tools:ignore="MissingPrefix"
                     android:autofillHints=""
                     android:inputType="text" />
@@ -197,7 +197,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
-                    android:hint="Telefon fix de serviciu"
+                    android:hint="@string/phone_crud"
                     tools:ignore="MissingPrefix"
                     android:autofillHints=""
                     android:inputType="phone" />
@@ -208,7 +208,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
-                    android:hint="Telefon mobil de serviciu"
+                    android:hint="@string/phone_mobile_crud"
                     tools:ignore="MissingPrefix"
                     android:autofillHints=""
                     android:inputType="phone" />
@@ -221,8 +221,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
-                android:hint="Telefon intern"
-                tools:ignore="MissingPrefix"
+                android:hint="@string/crud_telefon_intern"
+
                     android:autofillHints=""
                     android:inputType="phone" />
 
@@ -232,7 +232,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
-                    android:hint="Cercetări Statistice"
+                    android:hint="@string/crud_cercetari_statistice"
                     tools:ignore="MissingPrefix"
                     android:autofillHints=""
                     android:inputType="text" />
@@ -243,7 +243,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
-                    android:hint="E-mail"
+                    android:hint="@string/crud_e_mail"
                     tools:ignore="MissingPrefix"
                     android:autofillHints=""
                     android:inputType="textEmailAddress" />
@@ -254,7 +254,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="16dp"
-                    android:hint="Informații personale"
+                    android:hint="@string/crud_info_personal"
                     tools:ignore="MissingPrefix"
                     android:autofillHints=""
                     android:inputType="text" />
