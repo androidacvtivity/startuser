@@ -1,16 +1,13 @@
 <component name="libraryTable">
-  <library name="Gradle: cn.gavinliu:ShapedImageView:0.8.7@aar">
+  <library name="Gradle: cn.gavinliu:ShapedImageView:0.8.7@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/62fc4525c0992f526cb7237ee12f7474/transformed/jetified-ShapedImageView-0.8.7/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/62fc4525c0992f526cb7237ee12f7474/transformed/jetified-ShapedImageView-0.8.7/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/62fc4525c0992f526cb7237ee12f7474/transformed/jetified-ShapedImageView-0.8.7/res" />
-      <root url="file://$PROJECT_DIR$/../Level_stat/caches/transforms-3/62fc4525c0992f526cb7237ee12f7474/transformed/jetified-ShapedImageView-0.8.7/res" />
-      <root url="jar://$PROJECT_DIR$/../Level_stat/caches/transforms-3/62fc4525c0992f526cb7237ee12f7474/transformed/jetified-ShapedImageView-0.8.7/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../Level_stat/caches/transforms-3/62fc4525c0992f526cb7237ee12f7474/transformed/jetified-ShapedImageView-0.8.7/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/e494abfe1a02988f25a8d0f54b3f938d/transformed/jetified-ShapedImageView-0.8.7/res" />
+      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/e494abfe1a02988f25a8d0f54b3f938d/transformed/jetified-ShapedImageView-0.8.7/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/e494abfe1a02988f25a8d0f54b3f938d/transformed/jetified-ShapedImageView-0.8.7/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../Level_stat/caches/modules-2/files-2.1/cn.gavinliu/ShapedImageView/0.8.7/6b3b0ca32d9dc07ecb146d734e5871218e0319c4/ShapedImageView-0.8.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/cn.gavinliu/ShapedImageView/0.8.7/6b3b0ca32d9dc07ecb146d734e5871218e0319c4/ShapedImageView-0.8.7-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -15,7 +15,8 @@ public class App extends Application {
                         new CalligraphyConfig.Builder()
                                 .setDefaultFontPath("fonts/Verdana.ttf")
                                // .setDefaultFontPath("fonts/Roboto-Bold.ttf")
-                                .setFontAttrId(R.attr.fontPath)
+                               // .setFontAttrId(R.attr.fontPath)
+                                .setFontAttrId(io.github.inflationx.calligraphy3.R.attr.fontPath)
                                 .build()))
                 .build());
     }
