@@ -1,0 +1,1587 @@
+Index: .idea/libraries/Gradle__androidx_databinding_databinding_adapters_8_7_3_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_8_7_3_aar.xml b/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_8_7_3_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_8_7_3_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.databinding:databinding-adapters:8.7.3@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0e9883572b844ca309d53a4ba9bffd44/transformed/databinding-adapters-8.7.3/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0e9883572b844ca309d53a4ba9bffd44/transformed/databinding-adapters-8.7.3/res" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0e9883572b844ca309d53a4ba9bffd44/transformed/databinding-adapters-8.7.3/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.databinding/databinding-adapters/8.7.3/c199c9816bb7e7f84ede572faecad865b3222f65/databinding-adapters-8.7.3-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/da249209f56fad25533edcec0bb2a6e4/transformed/viewpager-1.0.0/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/da249209f56fad25533edcec0bb2a6e4/transformed/viewpager-1.0.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_6_2.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_6_2.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_6_2.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_6_2.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-common:2.6.2" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="androidx.lifecycle" artifactId="lifecycle-common" version="2.6.2" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.6.2/10f354fdb64868baecd67128560c5a0d6312c495/lifecycle-common-2.6.2.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.6.2/a2a417e26f5d4c961d9621d0540014e1706d0c52/lifecycle-common-2.6.2-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/52849f75b5449c36399f371e9d37d576/transformed/cursoradapter-1.0.0/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/52849f75b5449c36399f371e9d37d576/transformed/cursoradapter-1.0.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.cursoradapter/cursoradapter/1.0.0/1e323083b41c31fd4d45510dfce50614963c3c6c/cursoradapter-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,15 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.exifinterface:exifinterface:1.0.0@aar" external-system-id="GRADLE">
+-    <ANNOTATIONS>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/08c517436c221cee923c39ccfb31d2e6/transformed/exifinterface-1.0.0/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/08c517436c221cee923c39ccfb31d2e6/transformed/exifinterface-1.0.0/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/08c517436c221cee923c39ccfb31d2e6/transformed/exifinterface-1.0.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.exifinterface/exifinterface/1.0.0/cb592500decea684137bd17587a92eee4e2568e/exifinterface-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_google_android_material_material_1_12_0_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_google_android_material_material_1_12_0_aar.xml b/.idea/libraries/Gradle__com_google_android_material_material_1_12_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_google_android_material_material_1_12_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,16 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.google.android.material:material:1.12.0@aar" external-system-id="GRADLE">
+-    <ANNOTATIONS>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0c904728dc3a8d192cc0c0faeb598900/transformed/material-1.12.0/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0c904728dc3a8d192cc0c0faeb598900/transformed/material-1.12.0/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0c904728dc3a8d192cc0c0faeb598900/transformed/material-1.12.0/res" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0c904728dc3a8d192cc0c0faeb598900/transformed/material-1.12.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.google.android.material/material/1.12.0/5583a9ff7f51bd568ac8b94496ec3d1ec787a015/material-1.12.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_6_2_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_6_2_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_6_2_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_6_2_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-runtime:2.6.2@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/a992c4706d8765f6d3ad2e7779678203/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/a992c4706d8765f6d3ad2e7779678203/transformed/lifecycle-runtime-2.6.2/res" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/a992c4706d8765f6d3ad2e7779678203/transformed/lifecycle-runtime-2.6.2/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.6.2/f653a171fc041d7062a83c81458c12f0201bcd6f/lifecycle-runtime-2.6.2-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml b/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/bafaea1e41a99991df2e09039d6fdb46/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/bafaea1e41a99991df2e09039d6fdb46/transformed/vectordrawable-animated-1.1.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.vectordrawable/vectordrawable-animated/1.1.0/871a7705cd03bc246947638c712cdd11378233ff/vectordrawable-animated-1.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_9.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_9.xml b/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_9.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_9.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.squareup.okhttp3:okhttp:3.14.9" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.14.9/3e6d101343c7ea687cd593e4990f73b25c878383/okhttp-3.14.9.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.14.9/b1818d3d87c70e43c103d125a7555965b2bcb98d/okhttp-3.14.9-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.14.9/5ad877a6749b53b7b177e7b328ebf59ce06b75af/okhttp-3.14.9-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml b/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: org.jetbrains:annotations:13.0" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/73368c3b0887f3adc2c2730dd1b95d7c3781aaf3/annotations-13.0-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml b/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.core:core-ktx:1.2.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/c3b8c08bc3263938342403f7d7a7044a/transformed/jetified-core-ktx-1.2.0/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/c3b8c08bc3263938342403f7d7a7044a/transformed/jetified-core-ktx-1.2.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.core/core-ktx/1.2.0/75eb613f7dec270f611d0adff5fcb0e8b617fe0a/core-ktx-1.2.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_appcompat_appcompat_1_7_0_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_7_0_aar.xml b/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_7_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_7_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,16 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.appcompat:appcompat:1.7.0@aar" external-system-id="GRADLE">
+-    <ANNOTATIONS>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/2e5dede616097980bb091ccafda52a7d/transformed/appcompat-1.7.0/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/2e5dede616097980bb091ccafda52a7d/transformed/appcompat-1.7.0/res" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/2e5dede616097980bb091ccafda52a7d/transformed/appcompat-1.7.0/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/2e5dede616097980bb091ccafda52a7d/transformed/appcompat-1.7.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.7.0/c66c25a939bfe4b18249922dc4e7a19caca8bf68/appcompat-1.7.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_github_ivbaranov_materiallettericon_0_2_3_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_github_ivbaranov_materiallettericon_0_2_3_aar.xml b/.idea/libraries/Gradle__com_github_ivbaranov_materiallettericon_0_2_3_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_github_ivbaranov_materiallettericon_0_2_3_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,15 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.github.ivbaranov:materiallettericon:0.2.3@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/d185697e7a5b835d3a54c93eafb94ffa/transformed/jetified-materiallettericon-0.2.3/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/d185697e7a5b835d3a54c93eafb94ffa/transformed/jetified-materiallettericon-0.2.3/res" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/d185697e7a5b835d3a54c93eafb94ffa/transformed/jetified-materiallettericon-0.2.3/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.github.ivbaranov/materiallettericon/0.2.3/b1a86cb548d24b66f4b769d89f5bcfb3536a2144/materiallettericon-0.2.3-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.github.ivbaranov/materiallettericon/0.2.3/38374172dba52970673fcbf5ce87514235a1e293/materiallettericon-0.2.3-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.cardview:cardview:1.0.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/6686a20c7c8bc378b96eda11506c15cc/transformed/cardview-1.0.0/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/6686a20c7c8bc378b96eda11506c15cc/transformed/cardview-1.0.0/res" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/6686a20c7c8bc378b96eda11506c15cc/transformed/cardview-1.0.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.cardview/cardview/1.0.0/c9f3ce7ca74ad2c978230f4094ba6804c5166f9c/cardview-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_7_0_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_7_0_aar.xml b/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_7_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_7_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.appcompat:appcompat-resources:1.7.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/4a215c1c9bda988afcdbc6e16c92c92d/transformed/jetified-appcompat-resources-1.7.0/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/4a215c1c9bda988afcdbc6e16c92c92d/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/4a215c1c9bda988afcdbc6e16c92c92d/transformed/jetified-appcompat-resources-1.7.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.appcompat/appcompat-resources/1.7.0/cb084bf039d2b49e02cb58e0da0044fed264a4fb/appcompat-resources-1.7.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/f3bafc65845cd6d5a97248851f668b01/transformed/documentfile-1.0.0/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/f3bafc65845cd6d5a97248851f668b01/transformed/documentfile-1.0.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.documentfile/documentfile/1.0.0/a1bed5cf96db96bd06a2feade98fe55653811dc8/documentfile-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_arch_core_core_runtime_2_2_0_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_2_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_2_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.arch.core:core-runtime:2.2.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/288b87d66ec79f4e06d77d5b14fb6aab/transformed/core-runtime-2.2.0/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/288b87d66ec79f4e06d77d5b14fb6aab/transformed/core-runtime-2.2.0/res" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/288b87d66ec79f4e06d77d5b14fb6aab/transformed/core-runtime-2.2.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.2.0/48630ad88f438e5a603ae74cf4858203d1a595c5/core-runtime-2.2.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_transition_transition_1_5_0_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_transition_transition_1_5_0_aar.xml b/.idea/libraries/Gradle__androidx_transition_transition_1_5_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_transition_transition_1_5_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,16 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.transition:transition:1.5.0@aar" external-system-id="GRADLE">
+-    <ANNOTATIONS>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/1442b32ce61897a611ab55187f692109/transformed/transition-1.5.0/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/1442b32ce61897a611ab55187f692109/transformed/transition-1.5.0/AndroidManifest.xml" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/1442b32ce61897a611ab55187f692109/transformed/transition-1.5.0/res" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/1442b32ce61897a611ab55187f692109/transformed/transition-1.5.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.transition/transition/1.5.0/9372d1f39a8d63c3d6ed67688546a789037ac8b0/transition-1.5.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_8_22.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_8_22.xml b/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_8_22.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_8_22.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,14 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22" type="kotlin.common" external-system-id="GRADLE">
+-    <properties groupId="org.jetbrains.kotlin" artifactId="kotlin-stdlib-common" version="1.8.22" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.22/1a8e3601703ae14bb58757ea6b2d8e8e5935a586/kotlin-stdlib-common-1.8.22.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.22/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-stdlib-common-1.8.22-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.22/ae313b979b8e620a6497cd323f9c5861f7aebef/kotlin-stdlib-common-1.8.22-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_6_2_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_6_2_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_6_2_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_6_2_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/20427d59ced38579862f3711972ea9f6/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/20427d59ced38579862f3711972ea9f6/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/20427d59ced38579862f3711972ea9f6/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-savedstate/2.6.2/2d3519967d6ad4b68af5219e6a2bf015c1ed6287/lifecycle-viewmodel-savedstate-2.6.2-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_3_2_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_3_2_aar.xml b/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_3_2_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_3_2_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,16 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.recyclerview:recyclerview:1.3.2@aar" external-system-id="GRADLE">
+-    <ANNOTATIONS>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/6656355cc4a6d9243a80384a9881c23a/transformed/recyclerview-1.3.2/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/6656355cc4a6d9243a80384a9881c23a/transformed/recyclerview-1.3.2/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/6656355cc4a6d9243a80384a9881c23a/transformed/recyclerview-1.3.2/AndroidManifest.xml" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/6656355cc4a6d9243a80384a9881c23a/transformed/recyclerview-1.3.2/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.3.2/7bc0f04ccbe0159dc303408af769dc1bbb80d584/recyclerview-1.3.2-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_8_22.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_8_22.xml b/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_8_22.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_8_22.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,14 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="org.jetbrains.kotlin" artifactId="kotlin-stdlib-jdk8" version="1.8.22" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.22/b25c86d47d6b962b9cf0f8c3f320c8a10eea3dd1/kotlin-stdlib-jdk8-1.8.22.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.22/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-stdlib-jdk8-1.8.22-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.22/20739e7aae2a2bfb66c4081b233ffea7b947cf77/kotlin-stdlib-jdk8-1.8.22-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_6_4.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_6_4.xml b/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_6_4.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_6_4.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,14 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="org.jetbrains.kotlinx" artifactId="kotlinx-coroutines-core-jvm" version="1.6.4" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4/2c997cd1c0ef33f3e751d3831929aeff1390cb30/kotlinx-coroutines-core-jvm-1.6.4.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4/fabe8d560081a2a5509ec895d59d0ee3618f8f8e/kotlinx-coroutines-core-jvm-1.6.4-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4/f6a09bbc88df97983306c692aa43889ac78b98ef/kotlinx-coroutines-core-jvm-1.6.4-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml b/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/203c1f3baa7d02fa5912661e1489b738/transformed/core-runtime-2.1.0/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/203c1f3baa7d02fa5912661e1489b738/transformed/core-runtime-2.1.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.1.0/f19886651c9946b39f83d8c184fd0e2ce9f43c16/core-runtime-2.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml b/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,14 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.squareup.picasso:picasso:2.71828@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/3ebc98ce2ef4f43735b639530744d05e/transformed/jetified-picasso-2.71828/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/3ebc98ce2ef4f43735b639530744d05e/transformed/jetified-picasso-2.71828/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.71828/2843564e6bac90b1e125104d7c842c87a96a8ee9/picasso-2.71828-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.71828/41874e20a4d17fd4ad2052ac217073e14d00c910/picasso-2.71828-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_core_core_ktx_1_13_0_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_core_core_ktx_1_13_0_aar.xml b/.idea/libraries/Gradle__androidx_core_core_ktx_1_13_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_core_core_ktx_1_13_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.core:core-ktx:1.13.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/156db4fe74ab9b19d4957ef477e2a0bc/transformed/jetified-core-ktx-1.13.0/res" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/156db4fe74ab9b19d4957ef477e2a0bc/transformed/jetified-core-ktx-1.13.0/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/156db4fe74ab9b19d4957ef477e2a0bc/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.core/core-ktx/1.13.0/2ebeecb97d5b1557fc7b3e3758447b8176e322e8/core-ktx-1.13.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.dynamicanimation:dynamicanimation:1.0.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/c0a7cd25d1b6712e33a306844291bca0/transformed/dynamicanimation-1.0.0/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/c0a7cd25d1b6712e33a306844291bca0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.dynamicanimation/dynamicanimation/1.0.0/5c050e29af5033ff5e2d58ccf657ae92fdfbda4a/dynamicanimation-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.loader:loader:1.0.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/1b7fea5af35424e647e6362448943819/transformed/loader-1.0.0/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/1b7fea5af35424e647e6362448943819/transformed/loader-1.0.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.loader/loader/1.0.0/b9ef587f3e46c7fe5b00264989764e43ff45cada/loader-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_savedstate_savedstate_1_2_1_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_2_1_aar.xml b/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_2_1_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_2_1_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.savedstate:savedstate:1.2.1@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/e3406800e3669256d70fe7831399c2fb/transformed/jetified-savedstate-1.2.1/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/e3406800e3669256d70fe7831399c2fb/transformed/jetified-savedstate-1.2.1/res" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/e3406800e3669256d70fe7831399c2fb/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.savedstate/savedstate/1.2.1/58d4c9fd35e826d3bce813974006451ee9ba4344/savedstate-1.2.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_google_code_gson_gson_2_10_1.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_google_code_gson_gson_2_10_1.xml b/.idea/libraries/Gradle__com_google_code_gson_gson_2_10_1.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_google_code_gson_gson_2_10_1.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,14 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.google.code.gson:gson:2.10.1" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="com.google.code.gson" artifactId="gson" version="2.10.1" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.10.1.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/9cca04b7347a417baf90858f7cc59d82b44fdd11/gson-2.10.1-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/982a90132e942f302e6fe79d6e78c4bc2e998569/gson-2.10.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_11_0.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_11_0.xml b/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_11_0.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_11_0.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,14 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.squareup.retrofit2:retrofit:2.11.0" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="com.squareup.retrofit2" artifactId="retrofit" version="2.11.0" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.11.0/6ca8c6caf842271f3232e075519fe04081ef7069/retrofit-2.11.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.11.0/3e7266abd240978852c0ec745d7e642e4d7c3a78/retrofit-2.11.0-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.11.0/b7a50b1ba86e50d99fd6c2030b8749869d4e10f/retrofit-2.11.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/762d18bdc8ac4abeb51830fc7cc6d2a5/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/762d18bdc8ac4abeb51830fc7cc6d2a5/transformed/legacy-support-core-utils-1.0.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.legacy/legacy-support-core-utils/1.0.0/46c37f178088153618cfb0afef08ec96c48f93cb/legacy-support-core-utils-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_8_22.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_8_22.xml b/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_8_22.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_8_22.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,14 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="org.jetbrains.kotlin" artifactId="kotlin-stdlib-jdk7" version="1.8.22" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.22/4dabb8248310d833bb6a8b516024a91fd3d275c/kotlin-stdlib-jdk7-1.8.22.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.22/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-stdlib-jdk7-1.8.22-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.22/3641d7cb7650db9fe93a5361b1b88cbcefdb01e0/kotlin-stdlib-jdk7-1.8.22-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_8_10.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_8_10.xml b/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_8_10.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_8_10.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,14 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="org.jetbrains.kotlin" artifactId="kotlin-stdlib-jdk8" version="1.8.10" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.10/7c002ac41f547a82e81dfebd2a20577a738dbf3f/kotlin-stdlib-jdk8-1.8.10.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.10/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-stdlib-jdk8-1.8.10-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.10/20739e7aae2a2bfb66c4081b233ffea7b947cf77/kotlin-stdlib-jdk8-1.8.10-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_databinding_viewbinding_8_7_3_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_databinding_viewbinding_8_7_3_aar.xml b/.idea/libraries/Gradle__androidx_databinding_viewbinding_8_7_3_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_databinding_viewbinding_8_7_3_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.databinding:viewbinding:8.7.3@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/c1db4b4f00768dd9431e24b6636bf404/transformed/jetified-viewbinding-8.7.3/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/c1db4b4f00768dd9431e24b6636bf404/transformed/jetified-viewbinding-8.7.3/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.databinding/viewbinding/8.7.3/74d617b17d64dbab39c5e4ec0aff63577ff6cf0c/viewbinding-8.7.3-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_11_0.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_11_0.xml b/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_11_0.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_11_0.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,14 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.squareup.retrofit2:converter-gson:2.11.0" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="com.squareup.retrofit2" artifactId="converter-gson" version="2.11.0" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.11.0/9d1fe9d1662de0548e08e293041140a8e4026f81/converter-gson-2.11.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.11.0/7a7284b47a4f7fcd41248fa1d546ea333624336d/converter-gson-2.11.0-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.11.0/4bdd51518a12394cd5b1adeac899a14669609fc1/converter-gson-2.11.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_databinding_databinding_runtime_8_7_3_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_8_7_3_aar.xml b/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_8_7_3_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_8_7_3_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.databinding:databinding-runtime:8.7.3@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/b157cd6304954cf4f0d56266e65aee97/transformed/databinding-runtime-8.7.3/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/b157cd6304954cf4f0d56266e65aee97/transformed/databinding-runtime-8.7.3/res" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/b157cd6304954cf4f0d56266e65aee97/transformed/databinding-runtime-8.7.3/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.databinding/databinding-runtime/8.7.3/a5e541cc38eb13fe0334a34dd8f476c2bfbf03bf/databinding-runtime-8.7.3-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/a8f40d0c746f796fad03a5a879913dd8/transformed/interpolator-1.0.0/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/a8f40d0c746f796fad03a5a879913dd8/transformed/interpolator-1.0.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.interpolator/interpolator/1.0.0/fefd5e3cbc479b6b4a9532d05688a1e659e8d3d2/interpolator-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_annotation_annotation_jvm_1_6_0.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_annotation_annotation_jvm_1_6_0.xml b/.idea/libraries/Gradle__androidx_annotation_annotation_jvm_1_6_0.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_annotation_annotation_jvm_1_6_0.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.annotation:annotation-jvm:1.6.0" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="androidx.annotation" artifactId="annotation-jvm" version="1.6.0" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.6.0/a7257339a052df0f91433cf9651231bbb802b502/annotation-jvm-1.6.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.6.0/407ff5ab230288b9cdabf7223058592370882f1f/annotation-jvm-1.6.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_6_2_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_6_2_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_6_2_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_6_2_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.6.2@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/08ea9cd584a80f7ce6b37f72f1e11ddc/transformed/lifecycle-livedata-core-2.6.2/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/08ea9cd584a80f7ce6b37f72f1e11ddc/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/08ea9cd584a80f7ce6b37f72f1e11ddc/transformed/lifecycle-livedata-core-2.6.2/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.6.2/3b4141d2e2e1ff6ddfd8f1990283d579d2e2f7a4/lifecycle-livedata-core-2.6.2-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml b/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: org.hamcrest:hamcrest-core:1.3" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/ad09811315f1d4f5756986575b0ea16b99cd686f/hamcrest-core-1.3-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__io_github_inflationx_calligraphy3_3_1_1_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__io_github_inflationx_calligraphy3_3_1_1_aar.xml b/.idea/libraries/Gradle__io_github_inflationx_calligraphy3_3_1_1_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__io_github_inflationx_calligraphy3_3_1_1_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,15 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: io.github.inflationx:calligraphy3:3.1.1@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/cad02b6e2e8e7c942cb0830b765d36cc/transformed/jetified-calligraphy3-3.1.1/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/cad02b6e2e8e7c942cb0830b765d36cc/transformed/jetified-calligraphy3-3.1.1/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/cad02b6e2e8e7c942cb0830b765d36cc/transformed/jetified-calligraphy3-3.1.1/res" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/io.github.inflationx/calligraphy3/3.1.1/ee0e0d8fdcc92db6323063da61949dececb3b6ab/calligraphy3-3.1.1-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/io.github.inflationx/calligraphy3/3.1.1/c5d2228e95c60d0a3e887139f08e4f7e5e515499/calligraphy3-3.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_8_22.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_8_22.xml b/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_8_22.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_8_22.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,14 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.8.22" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="org.jetbrains.kotlin" artifactId="kotlin-stdlib" version="1.8.22" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.22/636bf8b320e7627482771bbac9ed7246773c02bd/kotlin-stdlib-1.8.22.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.22/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-stdlib-1.8.22-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.22/6a8d4dfebb88f951bcd9f58636f085bf24ff3e8b/kotlin-stdlib-1.8.22-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_core_core_1_13_0_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_core_core_1_13_0_aar.xml b/.idea/libraries/Gradle__androidx_core_core_1_13_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_core_core_1_13_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,16 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.core:core:1.13.0@aar" external-system-id="GRADLE">
+-    <ANNOTATIONS>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/b203f511e6f88234a93304f4ae9934a6/transformed/core-1.13.0/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/b203f511e6f88234a93304f4ae9934a6/transformed/core-1.13.0/res" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/b203f511e6f88234a93304f4ae9934a6/transformed/core-1.13.0/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/b203f511e6f88234a93304f4ae9934a6/transformed/core-1.13.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.core/core/1.13.0/9ae580505557c829bed91310494b3ccd0a386dfd/core-1.13.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml b/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,16 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.drawerlayout:drawerlayout:1.1.1@aar" external-system-id="GRADLE">
+-    <ANNOTATIONS>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/031730afada00946ab3facfeaf38d11a/transformed/drawerlayout-1.1.1/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/031730afada00946ab3facfeaf38d11a/transformed/drawerlayout-1.1.1/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/031730afada00946ab3facfeaf38d11a/transformed/drawerlayout-1.1.1/res" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/031730afada00946ab3facfeaf38d11a/transformed/drawerlayout-1.1.1/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.drawerlayout/drawerlayout/1.1.1/d95f7d9cd7d95cc0c038bbcf9c65f521b56fee55/drawerlayout-1.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_1_0_beta02_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_1_0_beta02_aar.xml b/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_1_0_beta02_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_1_0_beta02_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,16 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.viewpager2:viewpager2:1.1.0-beta02@aar" external-system-id="GRADLE">
+-    <ANNOTATIONS>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/8c578606183fb9b3e5d5d2642ed312dd/transformed/jetified-viewpager2-1.1.0-beta02/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/8c578606183fb9b3e5d5d2642ed312dd/transformed/jetified-viewpager2-1.1.0-beta02/res" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/8c578606183fb9b3e5d5d2642ed312dd/transformed/jetified-viewpager2-1.1.0-beta02/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/8c578606183fb9b3e5d5d2642ed312dd/transformed/jetified-viewpager2-1.1.0-beta02/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.1.0-beta02/e6b214fdb6728bde9ce154c610dfb1388658cad7/viewpager2-1.1.0-beta02-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml b/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.customview:customview:1.1.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/fcece24f102100391000226e3013a719/transformed/customview-1.1.0/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/fcece24f102100391000226e3013a719/transformed/customview-1.1.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.customview/customview/1.1.0/be631aafb1eb3f64c9cc57083a21a3321cf2e2e1/customview-1.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_2_0_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_2_0_aar.xml b/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_2_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_2_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.vectordrawable:vectordrawable:1.2.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/1c5e3d790159dca4a524af001667fc69/transformed/vectordrawable-1.2.0/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/1c5e3d790159dca4a524af001667fc69/transformed/vectordrawable-1.2.0/res" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/1c5e3d790159dca4a524af001667fc69/transformed/vectordrawable-1.2.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.vectordrawable/vectordrawable/1.2.0/d00fe5188979ebe6297327b4530ae60bbaa74948/vectordrawable-1.2.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/ea845eed4983014fc29e1f0f7c8cbe68/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/ea845eed4983014fc29e1f0f7c8cbe68/transformed/localbroadcastmanager-1.0.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.localbroadcastmanager/localbroadcastmanager/1.0.0/3930e99159fd6b7f1d2e7d5fe9af0924ca1faf9/localbroadcastmanager-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__cn_gavinliu_ShapedImageView_0_8_7_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__cn_gavinliu_ShapedImageView_0_8_7_aar.xml b/.idea/libraries/Gradle__cn_gavinliu_ShapedImageView_0_8_7_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__cn_gavinliu_ShapedImageView_0_8_7_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: cn.gavinliu:ShapedImageView:0.8.7@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/e494abfe1a02988f25a8d0f54b3f938d/transformed/jetified-ShapedImageView-0.8.7/res" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/e494abfe1a02988f25a8d0f54b3f938d/transformed/jetified-ShapedImageView-0.8.7/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/e494abfe1a02988f25a8d0f54b3f938d/transformed/jetified-ShapedImageView-0.8.7/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/cn.gavinliu/ShapedImageView/0.8.7/6b3b0ca32d9dc07ecb146d734e5871218e0319c4/ShapedImageView-0.8.7-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,16 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar" external-system-id="GRADLE">
+-    <ANNOTATIONS>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0b5701b45cefc11dd7228e4e2fe91120/transformed/jetified-viewpager2-1.0.0/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0b5701b45cefc11dd7228e4e2fe91120/transformed/jetified-viewpager2-1.0.0/res" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0b5701b45cefc11dd7228e4e2fe91120/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0b5701b45cefc11dd7228e4e2fe91120/transformed/jetified-viewpager2-1.0.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml b/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,15 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.print:print:1.0.0@aar" external-system-id="GRADLE">
+-    <ANNOTATIONS>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0b42e0bd061ee0bafcba6cbda7d7dd00/transformed/print-1.0.0/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0b42e0bd061ee0bafcba6cbda7d7dd00/transformed/print-1.0.0/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/0b42e0bd061ee0bafcba6cbda7d7dd00/transformed/print-1.0.0/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.print/print/1.0.0/71fc2d9acf7cce6b96230c5af263268b1664914a/print-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_8_10.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_8_10.xml b/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_8_10.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_8_10.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,14 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="org.jetbrains.kotlin" artifactId="kotlin-stdlib-jdk7" version="1.8.10" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.10/cb726a23c808a850a43e7d6b9d1ba91b02fe9f05/kotlin-stdlib-jdk7-1.8.10.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.10/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-stdlib-jdk7-1.8.10-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.10/3641d7cb7650db9fe93a5361b1b88cbcefdb01e0/kotlin-stdlib-jdk7-1.8.10-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_annotation_annotation_jvm_1_8_1.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_annotation_annotation_jvm_1_8_1.xml b/.idea/libraries/Gradle__androidx_annotation_annotation_jvm_1_8_1.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_annotation_annotation_jvm_1_8_1.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.annotation:annotation-jvm:1.8.1" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="androidx.annotation" artifactId="annotation-jvm" version="1.8.1" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.8.1/b8a16fe526014b7941c1debaccaf9c5153692dbb/annotation-jvm-1.8.1.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.8.1/38ef8b544da94401882fb3abac556f26f46bc046/annotation-jvm-1.8.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_6_2_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_6_2_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_6_2_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_6_2_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-livedata:2.6.2@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/2f5726100f47e9c09d190551d447ef93/transformed/lifecycle-livedata-2.6.2/res" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/2f5726100f47e9c09d190551d447ef93/transformed/lifecycle-livedata-2.6.2/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/2f5726100f47e9c09d190551d447ef93/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.6.2/7ee67be9804a0951093b89b1115f95facb1d823/lifecycle-livedata-2.6.2-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_6_4.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_6_4.xml b/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_6_4.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_6_4.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,14 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="org.jetbrains.kotlinx" artifactId="kotlinx-coroutines-android" version="1.6.4" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.6.4/f955fc8b2ad196e2f4429598440e15f7492eeb2b/kotlinx-coroutines-android-1.6.4.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.6.4/2fec8028da0cd9545193de42e5cd4ca69274ac68/kotlinx-coroutines-android-1.6.4-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.6.4/1f1dc4b0cdd9695aa300378bc244702abb94312d/kotlinx-coroutines-android-1.6.4-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_activity_activity_1_8_0_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_activity_activity_1_8_0_aar.xml b/.idea/libraries/Gradle__androidx_activity_activity_1_8_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_activity_activity_1_8_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.activity:activity:1.8.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/f28ef43b18d69687fdcd8c18846c9bdc/transformed/jetified-activity-1.8.0/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/f28ef43b18d69687fdcd8c18846c9bdc/transformed/jetified-activity-1.8.0/AndroidManifest.xml" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/f28ef43b18d69687fdcd8c18846c9bdc/transformed/jetified-activity-1.8.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.activity/activity/1.8.0/d56176e5b2b55654d898039f3c3685cc9c221af7/activity-1.8.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_4_0_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_4_0_aar.xml b/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_4_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_4_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.annotation:annotation-experimental:1.4.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/38b9c8abd9f3a3e45a3664adfa226457/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/38b9c8abd9f3a3e45a3664adfa226457/transformed/jetified-annotation-experimental-1.4.0/res" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/38b9c8abd9f3a3e45a3664adfa226457/transformed/jetified-annotation-experimental-1.4.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.annotation/annotation-experimental/1.4.0/4dc003cb3c5ff16a1c3d09f3d1f7ae7b2d14a9c4/annotation-experimental-1.4.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_arch_core_core_common_2_2_0.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_arch_core_core_common_2_2_0.xml b/.idea/libraries/Gradle__androidx_arch_core_core_common_2_2_0.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_arch_core_core_common_2_2_0.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.arch.core:core-common:2.2.0" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="androidx.arch.core" artifactId="core-common" version="2.2.0" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.2.0/5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3/core-common-2.2.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.2.0/f3ac1460fc6844d5441595a34591af7fc04fd2e5/core-common-2.2.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml b/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,16 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar" external-system-id="GRADLE">
+-    <ANNOTATIONS>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/cc974d16e560a28a4356c3b9f03bff1b/transformed/coordinatorlayout-1.1.0/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/cc974d16e560a28a4356c3b9f03bff1b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/cc974d16e560a28a4356c3b9f03bff1b/transformed/coordinatorlayout-1.1.0/res" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/cc974d16e560a28a4356c3b9f03bff1b/transformed/coordinatorlayout-1.1.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.coordinatorlayout/coordinatorlayout/1.1.0/a15529ac349d76a872ae5ef42b84c320c456cd7f/coordinatorlayout-1.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_fragment_fragment_1_5_4_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_fragment_fragment_1_5_4_aar.xml b/.idea/libraries/Gradle__androidx_fragment_fragment_1_5_4_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_fragment_fragment_1_5_4_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,16 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.fragment:fragment:1.5.4@aar" external-system-id="GRADLE">
+-    <ANNOTATIONS>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/4b50fe5564999dba304c37e71048dba5/transformed/fragment-1.5.4/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/4b50fe5564999dba304c37e71048dba5/transformed/fragment-1.5.4/res" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/4b50fe5564999dba304c37e71048dba5/transformed/fragment-1.5.4/AndroidManifest.xml" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/4b50fe5564999dba304c37e71048dba5/transformed/fragment-1.5.4/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.fragment/fragment/1.5.4/5404b0f8aeccb2fe882bee99ef8843711c01c156/fragment-1.5.4-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml b/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/65e6615ddb8c309e28d477697077111c/transformed/versionedparcelable-1.1.1/jars/classes.jar!/" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/65e6615ddb8c309e28d477697077111c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/d9085927216387af679d18b6f472bc0fc5c7cc81/versionedparcelable-1.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_databinding_databinding_common_8_7_3.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_databinding_databinding_common_8_7_3.xml b/.idea/libraries/Gradle__androidx_databinding_databinding_common_8_7_3.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_databinding_databinding_common_8_7_3.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.databinding:databinding-common:8.7.3" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="androidx.databinding" artifactId="databinding-common" version="8.7.3" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.databinding/databinding-common/8.7.3/2be3530b78477835e69dce953b17adc1dbc5c6fa/databinding-common-8.7.3.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.databinding/databinding-common/8.7.3/11a1cbee1a967c4db030fd5fbf71656ca4dd86c3/databinding-common-8.7.3-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__io_github_inflationx_viewpump_2_1_1_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__io_github_inflationx_viewpump_2_1_1_aar.xml b/.idea/libraries/Gradle__io_github_inflationx_viewpump_2_1_1_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__io_github_inflationx_viewpump_2_1_1_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,15 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: io.github.inflationx:viewpump:2.1.1@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/8fa283240a8caa89860c7c6a7bef98f4/transformed/jetified-viewpump-2.1.1/AndroidManifest.xml" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/8fa283240a8caa89860c7c6a7bef98f4/transformed/jetified-viewpump-2.1.1/res" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/8fa283240a8caa89860c7c6a7bef98f4/transformed/jetified-viewpump-2.1.1/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/io.github.inflationx/viewpump/2.1.1/bd53e712d9d0c61115cf8c4378e7d7506584b225/viewpump-2.1.1-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/io.github.inflationx/viewpump/2.1.1/9656a90eea090e3ed0bbf7420fdfaa300b6fae30/viewpump-2.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_resourceinspection_resourceinspection_annotation_1_0_1.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_resourceinspection_resourceinspection_annotation_1_0_1.xml b/.idea/libraries/Gradle__androidx_resourceinspection_resourceinspection_annotation_1_0_1.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_resourceinspection_resourceinspection_annotation_1_0_1.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.resourceinspection:resourceinspection-annotation:1.0.1" type="java-imported" external-system-id="GRADLE">
+-    <properties groupId="androidx.resourceinspection" artifactId="resourceinspection-annotation" version="1.0.1" />
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.resourceinspection/resourceinspection-annotation/1.0.1/8c21f8ff5d96d5d52c948707f7e4d6ca6773feef/resourceinspection-annotation-1.0.1.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.resourceinspection/resourceinspection-annotation/1.0.1/a1c91a3cf63fd51a8e755747186d97585f955ae3/resourceinspection-annotation-1.0.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_6_2_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_6_2_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_6_2_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_6_2_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.6.2@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/ef3ea4abcd78114fecaecb5fc4455bb4/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/ef3ea4abcd78114fecaecb5fc4455bb4/transformed/lifecycle-viewmodel-2.6.2/res" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/ef3ea4abcd78114fecaecb5fc4455bb4/transformed/lifecycle-viewmodel-2.6.2/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.6.2/dc2aa94a7174f4b67e6923496dc195cbf726a63b/lifecycle-viewmodel-2.6.2-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml b/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,11 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.collection:collection:1.1.0" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/bae67b0019fbb38498198fcc2d0282a340b71c5b/collection-1.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_squareup_okio_okio_1_17_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_squareup_okio_okio_1_17_2.xml b/.idea/libraries/Gradle__com_squareup_okio_okio_1_17_2.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_squareup_okio_okio_1_17_2.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.squareup.okio:okio:1.17.2" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/78c7820b205002da4d2d137f6f312bd64b3d6049/okio-1.17.2.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/b223e35cf99bb8c3d2a5b369b6b52093a6a750c2/okio-1.17.2-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/331ecaeba2fd87c06a0766e8ebe718e1e294f27d/okio-1.17.2-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_2_0_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_2_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_2_0_aar.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.constraintlayout:constraintlayout:2.2.0@aar" external-system-id="GRADLE">
+-    <CLASSES>
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/86fbaa1eee45abb1c010ea86868139d4/transformed/constraintlayout-2.2.0/AndroidManifest.xml" />
+-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/86fbaa1eee45abb1c010ea86868139d4/transformed/constraintlayout-2.2.0/res" />
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/86fbaa1eee45abb1c010ea86868139d4/transformed/constraintlayout-2.2.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout/2.2.0/d6422fade643fbe1d813f0ab5eec74b6cddc59de/constraintlayout-2.2.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__junit_junit_4_13_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Gradle__junit_junit_4_13_2.xml b/.idea/libraries/Gradle__junit_junit_4_13_2.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__junit_junit_4_13_2.xml	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
++++ /dev/null	(revision db38dde6c1c17a1707d3dee1520cffe3d9a5b3cd)
+@@ -1,16 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: junit:junit:4.13.2" external-system-id="GRADLE">
+-    <ANNOTATIONS>
+-      <root url="jar://$USER_HOME$/.m2/repository/org/jetbrains/externalAnnotations/junit/junit/4.12-an1/junit-4.12-an1-annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/junit/junit/4.13.2/f2f3f384dacd2ade2ddf7aa7e0f4360dfee38672/junit-4.13.2-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/junit/junit/4.13.2/33987872a811fe4d4001ed494b07854822257f42/junit-4.13.2-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
