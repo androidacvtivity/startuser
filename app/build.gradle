@@ -6,8 +6,8 @@ android {
         applicationId "com.alinasoft.startuser"
         minSdkVersion 21
         targetSdkVersion 34
-        versionCode 1
-        versionName "2.7"
+        versionCode 28
+        versionName "2.8"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -29,11 +29,11 @@ android {
         dataBinding true
     }
 
-    dependenciesInfo {
-        includeInApk true
-        includeInBundle true
-    }
-    buildToolsVersion '33.0.0 rc4'
+//    dependenciesInfo {
+//        includeInApk true
+//        includeInBundle true
+//    }
+   // buildToolsVersion '33.0.0 rc4'
     namespace 'com.alinasoft.startuser'
 }
 
