@@ -39,8 +39,8 @@ public class Utils {
 
 
 
-
-     private  static  final String base_url = "http://bancusoft.com/PHP/bns/";
+//Daca fac nu mai aceasta modificare - adaug la http - s 0 cum sa denumesac task ul - android Studio
+     private  static  final String base_url = "https://bancusoft.com/PHP/bns/";
 
 
     private static Retrofit retrofit = null;
